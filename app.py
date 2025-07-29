@@ -56,10 +56,22 @@ GEOPY_DELAY = 1
 
 # ========== FUNÇÕES AUXILIARES ==========
 def load_cache():
-    if CACHE_FILE.exists():
+    """
+    Carrega o cache de um arquivo JSON.
+    Retorna um dicionário vazio se o arquivo não existir, estiver vazio ou corrompido.
+    """
+    if not os.path.exists(CACHE_FILE):
+        return {} # Retorna cache vazio se o arquivo não existe
+    try:
         with open(CACHE_FILE, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    return {}
+            # Verifica se o arquivo não está vazio
+            content = f.read()
+            if not content:
+                return {}
+            return json.loads(content)
+    except (json.JSONDecodeError, FileNotFoundError):
+        # Se o arquivo estiver corrompido ou não for encontrado, começa com um cache vazio
+        return {}
 
 def save_cache(cache):
     try:
