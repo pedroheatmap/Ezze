@@ -49,6 +49,7 @@ app = Flask(__name__, static_folder='static')
 # ========== CONFIGURAÇÕES ==========
 RAIOS_KM = list(range(5, 101, 5))
 CACHE_FILE = Path('geocode_cache.json')
+SUGESTOES_CACHE_FILE = Path('sugestoes_cache.json') # NOVO: Arquivo de cache para sugestões
 LOTE_CLIENTES = 100000
 MAX_CLIENTES_MAP = 5000
 GEOPY_TIMEOUT = 10
@@ -83,7 +84,34 @@ def save_cache(cache):
             json.dump(cache, f, ensure_ascii=False)
         logging.warning(f"Cache salvo em local alternativo: {alt_path}")
 
+# --- INÍCIO: NOVAS FUNÇÕES DE CACHE PARA SUGESTÕES ---
+def load_sugestoes_cache():
+    """Carrega o cache de sugestões de um arquivo JSON."""
+    if not SUGESTOES_CACHE_FILE.exists():
+        return {}
+    try:
+        with open(SUGESTOES_CACHE_FILE, 'r', encoding='utf-8') as f:
+            content = f.read()
+            if not content:
+                return {}
+            return json.loads(content)
+    except (json.JSONDecodeError, FileNotFoundError):
+        logging.warning("Arquivo de cache de sugestões não encontrado ou corrompido. Um novo será criado.")
+        return {}
+
+def save_sugestoes_cache(cache):
+    """Salva o cache de sugestões em um arquivo JSON."""
+    try:
+        with open(SUGESTOES_CACHE_FILE, 'w', encoding='utf-8') as f:
+            json.dump(cache, f, ensure_ascii=False, indent=2)
+        logging.info(f"Cache de sugestões salvo em {SUGESTOES_CACHE_FILE}")
+    except Exception as e:
+        logging.error(f"Não foi possível salvar o cache de sugestões: {e}")
+
+# --- FIM: NOVAS FUNÇÕES DE CACHE PARA SUGESTÕES ---
+
 CACHE_CIDADES = load_cache()
+SUGESTOES_CACHE = load_sugestoes_cache() # NOVO: Carrega o cache de sugestões na inicialização
 
 def coordenada_no_brasil(lat, lon):
     """Verifica se as coordenadas estão dentro dos limites aproximados do Brasil"""
@@ -980,132 +1008,145 @@ def calcular_clientes_beneficiados():
             'clientes_unicos': 0,
             'error': str(e)
         }), 500
+
+# --- INÍCIO: LÓGICA DE SUGESTÃO REFATORADA ---
+def _gerar_sugestoes_logica(raio):
+    """
+    Função principal que encapsula a lógica de geração de sugestões.
+    Esta função é demorada e será chamada para popular o cache.
+    """
+    logging.info(f"Iniciando cálculo de sugestões para raio de {raio} km (isso pode levar tempo)...")
     
+    # 1. Identificar clientes NÃO cobertos pelas oficinas existentes
+    mascara_nao_cobertos = np.ones(len(coords_clientes), dtype=bool)
+    frequencias_nao_cobertos = np.zeros(len(coords_clientes), dtype=np.float32)
+    
+    for i in range(0, len(coords_clientes), LOTE_CLIENTES):
+        lote = coords_clientes[i:i+LOTE_CLIENTES]
+        frequencias = frequencias_clientes[i:i+LOTE_CLIENTES]
+        distancias = calcular_distancia_lote(lote, coords_oficinas, frequencias)
+        mascara_nao_cobertos[i:i+len(lote)] = ~np.any(distancias <= raio, axis=0)
+        frequencias_nao_cobertos[i:i+len(lote)] = frequencias * mascara_nao_cobertos[i:i+len(lote)]
+    
+    clientes_nao_cobertos = coords_clientes[mascara_nao_cobertos]
+    frequencias_nao_cobertos = frequencias_nao_cobertos[mascara_nao_cobertos]
+    
+    if len(clientes_nao_cobertos) == 0:
+        return {'sugestoes': [], 'total_beneficiados': 0, 'clientes_unicos_totais': 0}
+    
+    # 2. Pré-processamento: Identificar áreas promissoras com KMeans
+    n_areas_promissoras = min(100, max(20, len(clientes_nao_cobertos) // 500))
+    kmeans = KMeans(n_clusters=n_areas_promissoras, random_state=42, n_init=10)
+    areas_promissoras = kmeans.fit_predict(clientes_nao_cobertos)
+    
+    sugestoes = []
+    
+    # 3. Processar cada área promissora
+    for area_id in np.unique(areas_promissoras):
+        mascara_area = (areas_promissoras == area_id)
+        clientes_area = clientes_nao_cobertos[mascara_area]
+        freq_area = frequencias_nao_cobertos[mascara_area]
+        
+        eps = raio * 0.005
+        min_samples = max(5, len(clientes_area) // 200)
+        
+        try:
+            dbscan = DBSCAN(eps=eps, min_samples=min_samples)
+            clusters = dbscan.fit_predict(clientes_area)
+            
+            for cluster_id in np.unique(clusters):
+                if cluster_id == -1: continue
+                    
+                mascara_cluster = (clusters == cluster_id)
+                clientes_cluster = clientes_area[mascara_cluster]
+                freq_cluster = freq_area[mascara_cluster]
+                
+                centro = np.average(clientes_cluster, axis=0, weights=freq_cluster)
+                lat, lon = centro[0], centro[1]
+                
+                if not coordenada_no_brasil(lat, lon): continue
+                    
+                distancias_total = calcular_distancia_lote(coords_clientes, [centro], frequencias_clientes)
+                total_beneficiados = np.sum(distancias_total <= raio)
+                
+                distancias_novos = calcular_distancia_lote(clientes_nao_cobertos, [centro], frequencias_nao_cobertos)
+                clientes_novos = np.sum(distancias_novos <= raio)
+                
+                cidade = get_cidade(lat, lon)
+                
+                sugestoes.append({
+                    'lat': float(lat), 'lon': float(lon),
+                    'clientes_potenciais': int(total_beneficiados),
+                    'clientes_unicos': int(clientes_novos),
+                    'score': float(clientes_novos), 'cidade': cidade
+                })
+        except Exception as e:
+            logging.warning(f"Erro ao processar área {area_id}: {str(e)}")
+            continue
+    
+    sugestoes = sorted(sugestoes, key=lambda x: -x['score'])[:1000]
+    
+    # 4. Pós-processamento para remover sugestões próximas
+    sugestoes_filtradas = []
+    if len(sugestoes) > 1:
+        manter = np.ones(len(sugestoes), dtype=bool)
+        for i in range(len(sugestoes)):
+            if manter[i]:
+                for j in range(i+1, len(sugestoes)):
+                    dist = geodesic((sugestoes[i]['lat'], sugestoes[i]['lon']), 
+                                  (sugestoes[j]['lat'], sugestoes[j]['lon'])).km
+                    if dist < raio/4:
+                        if sugestoes[i]['score'] >= sugestoes[j]['score']:
+                            manter[j] = False
+                        else:
+                            manter[i] = False
+                            break
+        sugestoes_filtradas = [s for i, s in enumerate(sugestoes) if manter[i]]
+    else:
+        sugestoes_filtradas = sugestoes
+    
+    total_beneficiados = sum(s['clientes_potenciais'] for s in sugestoes_filtradas)
+    clientes_unicos_totais = sum(s['clientes_unicos'] for s in sugestoes_filtradas)
+    
+    logging.info(f"Cálculo para raio {raio} km concluído. {len(sugestoes_filtradas)} sugestões geradas.")
+    
+    return {
+        'sugestoes': sugestoes_filtradas,
+        'total_beneficiados': int(total_beneficiados),
+        'clientes_unicos_totais': int(clientes_unicos_totais)
+    }
+
+# --- FIM: LÓGICA DE SUGESTÃO REFATORADA ---
+
+# --- INÍCIO: ROTA DE SUGESTÃO MODIFICADA COM CACHE ---
 @app.route('/sugerir_oficinas')
 def sugerir_oficinas():
     try:
         raio = int(request.args.get('raio'))
+        raio_str = str(raio)
+
+        # 1. Tenta obter o resultado do cache primeiro
+        if raio_str in SUGESTOES_CACHE:
+            logging.info(f"Servindo sugestões para raio {raio}km do cache.")
+            return jsonify(SUGESTOES_CACHE[raio_str])
+
+        # 2. Se não estiver no cache, calcula, salva e retorna
+        logging.warning(f"Cache de sugestões não encontrado para o raio {raio}km. Calculando em tempo real...")
         
-        # 1. Identificar clientes NÃO cobertos pelas oficinas existentes
-        mascara_nao_cobertos = np.ones(len(coords_clientes), dtype=bool)
-        frequencias_nao_cobertos = np.zeros(len(coords_clientes), dtype=np.float32)
+        # Chama a função de lógica principal
+        sugestoes_data = _gerar_sugestoes_logica(raio)
         
-        for i in range(0, len(coords_clientes), LOTE_CLIENTES):
-            lote = coords_clientes[i:i+LOTE_CLIENTES]
-            frequencias = frequencias_clientes[i:i+LOTE_CLIENTES]
-            distancias = calcular_distancia_lote(lote, coords_oficinas, frequencias)
-            mascara_nao_cobertos[i:i+len(lote)] = ~np.any(distancias <= raio, axis=0)
-            frequencias_nao_cobertos[i:i+len(lote)] = frequencias * mascara_nao_cobertos[i:i+len(lote)]
+        # Salva o novo resultado no cache global e no arquivo
+        SUGESTOES_CACHE[raio_str] = sugestoes_data
+        save_sugestoes_cache(SUGESTOES_CACHE)
         
-        clientes_nao_cobertos = coords_clientes[mascara_nao_cobertos]
-        frequencias_nao_cobertos = frequencias_nao_cobertos[mascara_nao_cobertos]
-        
-        if len(clientes_nao_cobertos) == 0:
-            return jsonify({
-                'sugestoes': [], 
-                'total_beneficiados': 0,
-                'clientes_unicos_totais': 0
-            })
-        
-        # 2. Pré-processamento: Identificar áreas promissoras com KMeans
-        n_areas_promissoras = min(100, max(20, len(clientes_nao_cobertos) // 500))  # Aumentado o número de áreas
-        kmeans = KMeans(n_clusters=n_areas_promissoras, random_state=42, n_init=10)
-        areas_promissoras = kmeans.fit_predict(clientes_nao_cobertos)
-        
-        # 3. Processar cada área promissora separadamente
-        sugestoes = []
-        
-        for area_id in np.unique(areas_promissoras):
-            mascara_area = (areas_promissoras == area_id)
-            clientes_area = clientes_nao_cobertos[mascara_area]
-            freq_area = frequencias_nao_cobertos[mascara_area]
-            
-            # Aplicar DBSCAN com parâmetros mais sensíveis a clusters pequenos
-            eps = raio * 0.005  # Reduzido para capturar áreas menores
-            min_samples = max(5, len(clientes_area) // 200)  # Reduzido mínimo de amostras
-            
-            try:
-                dbscan = DBSCAN(eps=eps, min_samples=min_samples)
-                clusters = dbscan.fit_predict(clientes_area)
-                
-                for cluster_id in np.unique(clusters):
-                    if cluster_id == -1:  # Ignorar outliers
-                        continue
-                        
-                    mascara_cluster = (clusters == cluster_id)
-                    clientes_cluster = clientes_area[mascara_cluster]
-                    freq_cluster = freq_area[mascara_cluster]
-                    
-                    # Calcular centroide ponderado pela frequência
-                    centro = np.average(clientes_cluster, axis=0, weights=freq_cluster)
-                    lat, lon = centro[0], centro[1]
-                    
-                    if not coordenada_no_brasil(lat, lon):
-                        continue
-                        
-                    # Calcular TOTAL de clientes no raio (incluindo os já cobertos, com frequência)
-                    distancias_total = calcular_distancia_lote(coords_clientes, [centro], frequencias_clientes)
-                    total_beneficiados = np.sum(distancias_total <= raio)
-                    
-                    # Calcular CLIENTES NOVOS (apenas os que estavam descobertos, com frequência)
-                    distancias_novos = calcular_distancia_lote(clientes_nao_cobertos, [centro], frequencias_nao_cobertos)
-                    clientes_novos = np.sum(distancias_novos <= raio)
-                    
-                    # Adicionar cidade estimada
-                    cidade = get_cidade(lat, lon)
-                    
-                    sugestoes.append({
-                        'lat': float(lat),
-                        'lon': float(lon),
-                        'clientes_potenciais': int(total_beneficiados),
-                        'clientes_unicos': int(clientes_novos),
-                        'score': float(clientes_novos),
-                        'cidade': cidade
-                    })
-            except Exception as e:
-                logging.warning(f"Erro ao processar área {area_id}: {str(e)}")
-                continue
-        
-        # 4. Ordenar por número de clientes novos e limitar a 1000 melhores
-        sugestoes = sorted(sugestoes, key=lambda x: -x['score'])[:1000]
-        
-        # 5. Pós-processamento: Remover sugestões muito próximas (com distância mínima menor)
-        sugestoes_filtradas = []
-        coords_sugestoes = np.array([[s['lat'], s['lon']] for s in sugestoes])
-        
-        if len(sugestoes) > 1:
-            # Manter apenas sugestões com distância mínima de raio/4 (mais relaxado)
-            manter = np.ones(len(sugestoes), dtype=bool)
-            for i in range(len(sugestoes)):
-                if manter[i]:
-                    for j in range(i+1, len(sugestoes)):
-                        dist = geodesic((sugestoes[i]['lat'], sugestoes[i]['lon']), 
-                                      (sugestoes[j]['lat'], sugestoes[j]['lon'])).km
-                        if dist < raio/4:  # Reduzido de raio/2 para raio/4
-                            # Manter a sugestão com maior score
-                            if sugestoes[i]['score'] >= sugestoes[j]['score']:
-                                manter[j] = False
-                            else:
-                                manter[i] = False
-                                break
-            
-            sugestoes_filtradas = [s for i, s in enumerate(sugestoes) if manter[i]]
-        else:
-            sugestoes_filtradas = sugestoes
-        
-        # Calcular totais
-        total_beneficiados = sum(s['clientes_potenciais'] for s in sugestoes_filtradas)
-        clientes_unicos_totais = sum(s['clientes_unicos'] for s in sugestoes_filtradas)
-        
-        return jsonify({
-            'sugestoes': sugestoes_filtradas,
-            'total_beneficiados': int(total_beneficiados),
-            'clientes_unicos_totais': int(clientes_unicos_totais)
-        })
+        return jsonify(sugestoes_data)
     
     except Exception as e:
-        logging.error(f"Erro em /sugerir_oficinas: {str(e)}")
+        logging.error(f"Erro em /sugerir_oficinas: {str(e)}", exc_info=True)
         return jsonify({'error': str(e)}), 500
+# --- FIM: ROTA DE SUGESTÃO MODIFICADA COM CACHE ---
+
 
 @app.route('/clientes_heatmap')
 def clientes_heatmap():
@@ -1135,65 +1176,40 @@ def clientes_heatmap():
 def exportar_sugestoes():
     try:
         raio = int(request.args.get('raio'))
+        raio_str = str(raio)
         
-        # Identificar clientes não cobertos
-        mascara_nao_cobertos = np.ones(len(coords_clientes), dtype=bool)
-        
-        for i in range(0, len(coords_clientes), LOTE_CLIENTES):
-            lote = coords_clientes[i:i+LOTE_CLIENTES]
-            distancias = calcular_distancia_lote(lote, coords_oficinas)
-            mascara_nao_cobertos[i:i+len(lote)] = ~np.any(distancias <= raio, axis=0)
-        
-        clientes_nao_cobertos = coords_clientes[mascara_nao_cobertos]
-        
-        # Reutilizar a lógica de sugestões
-        response = sugerir_oficinas()
-        if response.status_code != 200:
-            return response
-        
-        sugestoes_data = response.get_json()
+        # Utiliza a mesma lógica da rota /sugerir_oficinas para obter os dados (do cache ou calculando)
+        if raio_str in SUGESTOES_CACHE:
+            sugestoes_data = SUGESTOES_CACHE[raio_str]
+        else:
+            sugestoes_data = _gerar_sugestoes_logica(raio)
+            SUGESTOES_CACHE[raio_str] = sugestoes_data
+            save_sugestoes_cache(SUGESTOES_CACHE)
+            
         sugestoes = sugestoes_data.get('sugestoes', [])
         
-        # Calcular clientes únicos que seriam cobertos
-        clientes_cobertos_mask = np.zeros(len(clientes_nao_cobertos), dtype=bool)
-        for sugestao in sugestoes:
-            centro = np.array([[sugestao['lat'], sugestao['lon']]])
-            distancias = calcular_distancia_lote(clientes_nao_cobertos, centro)
-            clientes_cobertos_mask |= (distancias <= raio).flatten()
-        
-        clientes_unicos_cobertos = np.sum(clientes_cobertos_mask)
-        
-        # Criar DataFrame
+        # Criar DataFrame a partir das sugestões
+        if not sugestoes:
+            return "Nenhuma sugestão para exportar.", 404
+            
         df_sugestoes = pd.DataFrame(sugestoes)
-        df_sugestoes['Cidade_Estimada'] = df_sugestoes.apply(
-            lambda row: get_cidade(row['lat'], row['lon']), axis=1)
         
-        # Adicionar sheet com métricas consistentes
+        # Criar Excel
         output = BytesIO()
         with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
             df_sugestoes.to_excel(writer, sheet_name='Sugestoes_Oficinas', index=False)
             
+            # Adicionar resumo
             pd.DataFrame({
-                'Métrica': [
-                    'Raio (km)',
-                    'Clientes Descobertos',
-                    'Clientes que Serão Cobertos (únicos)',
-                    'Sugestões Geradas',
-                    'Data'
-                ],
-                'Valor': [
-                    raio,
-                    len(clientes_nao_cobertos),
-                    clientes_unicos_cobertos,
-                    len(sugestoes),
-                    datetime.now().strftime('%d/%m/%Y %H:%M')
-                ]
+                'Métrica': ['Raio (km)', 'Sugestões Geradas', 'Data'],
+                'Valor': [raio, len(sugestoes), datetime.now().strftime('%d/%m/%Y %H:%M')]
             }).to_excel(writer, sheet_name='Resumo', index=False)
         
         output.seek(0)
         return send_file(output, mimetype='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
                         as_attachment=True,
                         download_name=f"sugestoes_oficinas_{raio}km_{datetime.now().strftime('%Y%m%d')}.xlsx")
+
     except Exception as e:
         logging.error(f"Erro em /exportar_sugestoes: {str(e)}", exc_info=True)
         return jsonify({'error': str(e)}), 500
@@ -1315,7 +1331,43 @@ def exportar():
     except Exception as e:
         logging.error(f"Erro em /exportar: {str(e)}", exc_info=True)
         return jsonify({'error': f"Erro ao exportar: {str(e)}"}), 500
+
+# --- INÍCIO: FUNÇÃO DE PRÉ-CACHE ---
+def pre_cache_sugestoes():
+    """
+    Pré-calcula e armazena em cache as sugestões para raios específicos
+    para acelerar a inicialização e as primeiras requisições.
+    """
+    RAIOS_PARA_CACHE = [5, 10, 15, 20]
+    logging.info("--- INICIANDO PRÉ-CACHE DE SUGESTÕES ---")
     
+    cache_modificado = False
+    for raio in RAIOS_PARA_CACHE:
+        raio_str = str(raio)
+        if raio_str not in SUGESTOES_CACHE:
+            logging.info(f"Cache para raio {raio}km não encontrado. Gerando agora...")
+            try:
+                # Chama a lógica principal de geração de sugestões
+                sugestoes_data = _gerar_sugestoes_logica(raio)
+                SUGESTOES_CACHE[raio_str] = sugestoes_data
+                cache_modificado = True
+            except Exception as e:
+                logging.error(f"Falha ao gerar cache para o raio {raio}km: {e}", exc_info=True)
+        else:
+            logging.info(f"Sugestões para o raio {raio}km já existem no cache. Pulando.")
+            
+    if cache_modificado:
+        save_sugestoes_cache(SUGESTOES_CACHE)
+    
+    logging.info("--- PRÉ-CACHE DE SUGESTÕES CONCLUÍDO ---")
+
+# --- FIM: FUNÇÃO DE PRÉ-CACHE ---
+
+
+# Chama a função de pré-cache quando o módulo é carregado (antes do servidor iniciar)
+pre_cache_sugestoes()
+
+
 if __name__ == '__main__':
     if not os.path.exists('static'):
         os.makedirs('static')

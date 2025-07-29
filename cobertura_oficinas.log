@@ -1,0 +1,38 @@
+2025-07-29 15:33:52,491 - WARNING - Filtradas 51 coordenadas inválidas
+2025-07-29 15:33:52,502 - INFO - --- INICIANDO PRÉ-CACHE DE SUGESTÕES ---
+2025-07-29 15:33:52,503 - INFO - Cache para raio 5km não encontrado. Gerando agora...
+2025-07-29 15:33:52,503 - INFO - Iniciando cálculo de sugestões para raio de 5 km (isso pode levar tempo)...
+2025-07-29 15:42:11,038 - INFO - Cálculo para raio 5 km concluído. 247 sugestões geradas.
+2025-07-29 15:42:11,048 - INFO - Cache para raio 10km não encontrado. Gerando agora...
+2025-07-29 15:42:11,048 - INFO - Iniciando cálculo de sugestões para raio de 10 km (isso pode levar tempo)...
+2025-07-29 15:45:11,627 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002197F80F750>, 'Connection to nominatim.openstreetmap.org timed out. (connect timeout=10)')': /reverse?lat=-7.198112487792969&lon=-48.20970916748047&format=json&accept-language=pt&addressdetails=1
+2025-07-29 15:46:20,427 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002197F80F750>, 'Connection to nominatim.openstreetmap.org timed out. (connect timeout=10)')': /reverse?lat=-30.07286262512207&lon=-51.07097244262695&format=json&accept-language=pt&addressdetails=1
+2025-07-29 15:47:29,480 - INFO - Cálculo para raio 10 km concluído. 193 sugestões geradas.
+2025-07-29 15:47:29,481 - INFO - Cache para raio 15km não encontrado. Gerando agora...
+2025-07-29 15:47:29,482 - INFO - Iniciando cálculo de sugestões para raio de 15 km (isso pode levar tempo)...
+2025-07-29 15:49:29,901 - INFO - Cálculo para raio 15 km concluído. 153 sugestões geradas.
+2025-07-29 15:49:29,910 - INFO - Cache para raio 20km não encontrado. Gerando agora...
+2025-07-29 15:49:29,910 - INFO - Iniciando cálculo de sugestões para raio de 20 km (isso pode levar tempo)...
+2025-07-29 15:50:13,372 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002197F80F390>, 'Connection to nominatim.openstreetmap.org timed out. (connect timeout=10)')': /reverse?lat=-20.850955963134766&lon=-49.49142837524414&format=json&accept-language=pt&addressdetails=1
+2025-07-29 15:51:00,597 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002197FCC8550>, 'Connection to nominatim.openstreetmap.org timed out. (connect timeout=10)')': /reverse?lat=-22.7382755279541&lon=-46.89398193359375&format=json&accept-language=pt&addressdetails=1
+2025-07-29 15:51:19,016 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002197F80F610>, 'Connection to nominatim.openstreetmap.org timed out. (connect timeout=10)')': /reverse?lat=-23.171052932739258&lon=-46.95481491088867&format=json&accept-language=pt&addressdetails=1
+2025-07-29 15:52:26,597 - INFO - Cálculo para raio 20 km concluído. 137 sugestões geradas.
+2025-07-29 15:52:26,641 - INFO - Cache de sugestões salvo em sugestoes_cache.json
+2025-07-29 15:52:26,642 - INFO - --- PRÉ-CACHE DE SUGESTÕES CONCLUÍDO ---
+2025-07-29 15:52:26,643 - INFO - 
+🚀 Aplicação pronta! Acesse http://localhost:5000
+2025-07-29 15:52:26,753 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.61:5000
+2025-07-29 15:52:26,755 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-29 15:52:55,318 - INFO - 127.0.0.1 - - [29/Jul/2025 15:52:55] "GET / HTTP/1.1" 200 -
+2025-07-29 15:52:55,361 - INFO - 127.0.0.1 - - [29/Jul/2025 15:52:55] "GET /static/logo.png HTTP/1.1" 200 -
+2025-07-29 15:52:55,367 - INFO - 127.0.0.1 - - [29/Jul/2025 15:52:55] "GET /static/logo2.png HTTP/1.1" 200 -
+2025-07-29 15:52:56,966 - INFO - 127.0.0.1 - - [29/Jul/2025 15:52:56] "GET /cobertura?raio=15 HTTP/1.1" 200 -
+2025-07-29 15:52:57,956 - INFO - Servindo sugestões para raio 15km do cache.
+2025-07-29 15:52:57,960 - INFO - 127.0.0.1 - - [29/Jul/2025 15:52:57] "GET /sugerir_oficinas?raio=15 HTTP/1.1" 200 -
+2025-07-29 15:53:00,725 - INFO - 127.0.0.1 - - [29/Jul/2025 15:53:00] "GET /cobertura?raio=20 HTTP/1.1" 200 -
+2025-07-29 15:53:05,638 - INFO - 127.0.0.1 - - [29/Jul/2025 15:53:05] "GET /cobertura?raio=15 HTTP/1.1" 200 -
+2025-07-29 15:53:06,753 - INFO - Servindo sugestões para raio 15km do cache.
+2025-07-29 15:53:06,759 - INFO - 127.0.0.1 - - [29/Jul/2025 15:53:06] "GET /sugerir_oficinas?raio=15 HTTP/1.1" 200 -

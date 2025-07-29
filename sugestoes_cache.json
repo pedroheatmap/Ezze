@@ -1,0 +1,5866 @@
+{
+  "5": {
+    "sugestoes": [
+      {
+        "lat": -23.730060577392578,
+        "lon": -46.68715286254883,
+        "clientes_potenciais": 95,
+        "clientes_unicos": 85,
+        "score": 85.0,
+        "cidade": "São Paulo"
+      },
+      {
+        "lat": -26.073209762573242,
+        "lon": -53.052146911621094,
+        "clientes_potenciais": 84,
+        "clientes_unicos": 84,
+        "score": 84.0,
+        "cidade": "Francisco Beltrão"
+      },
+      {
+        "lat": -23.093111038208008,
+        "lon": -47.221839904785156,
+        "clientes_potenciais": 79,
+        "clientes_unicos": 79,
+        "score": 79.0,
+        "cidade": "Indaiatuba"
+      },
+      {
+        "lat": -20.202547073364258,
+        "lon": -40.244441986083984,
+        "clientes_potenciais": 74,
+        "clientes_unicos": 74,
+        "score": 74.0,
+        "cidade": "Serra"
+      },
+      {
+        "lat": -20.803564071655273,
+        "lon": -49.36310958862305,
+        "clientes_potenciais": 229,
+        "clientes_unicos": 71,
+        "score": 71.0,
+        "cidade": "São José do Rio Preto"
+      },
+      {
+        "lat": -26.95900535583496,
+        "lon": -48.64338684082031,
+        "clientes_potenciais": 78,
+        "clientes_unicos": 69,
+        "score": 69.0,
+        "cidade": "Balneário Camboriú"
+      },
+      {
+        "lat": -20.724050521850586,
+        "lon": -46.608245849609375,
+        "clientes_potenciais": 64,
+        "clientes_unicos": 64,
+        "score": 64.0,
+        "cidade": "Passos"
+      },
+      {
+        "lat": -23.328947067260742,
+        "lon": -51.160499572753906,
+        "clientes_potenciais": 142,
+        "clientes_unicos": 63,
+        "score": 63.0,
+        "cidade": "Londrina"
+      },
+      {
+        "lat": -26.90152931213379,
+        "lon": -49.0648307800293,
+        "clientes_potenciais": 133,
+        "clientes_unicos": 61,
+        "score": 61.0,
+        "cidade": "Blumenau"
+      },
+      {
+        "lat": -23.425403594970703,
+        "lon": -46.420326232910156,
+        "clientes_potenciais": 64,
+        "clientes_unicos": 59,
+        "score": 59.0,
+        "cidade": "Guarulhos"
+      },
+      {
+        "lat": -7.976592540740967,
+        "lon": -34.86524200439453,
+        "clientes_potenciais": 58,
+        "clientes_unicos": 58,
+        "score": 58.0,
+        "cidade": "Olinda"
+      },
+      {
+        "lat": -22.950468063354492,
+        "lon": -47.01033020019531,
+        "clientes_potenciais": 78,
+        "clientes_unicos": 57,
+        "score": 57.0,
+        "cidade": "Valinhos"
+      },
+      {
+        "lat": -23.18408966064453,
+        "lon": -46.89907455444336,
+        "clientes_potenciais": 177,
+        "clientes_unicos": 54,
+        "score": 54.0,
+        "cidade": "Jundiaí"
+      },
+      {
+        "lat": -20.815261840820312,
+        "lon": -49.502159118652344,
+        "clientes_potenciais": 56,
+        "clientes_unicos": 51,
+        "score": 51.0,
+        "cidade": "Mirassol"
+      },
+      {
+        "lat": -20.256752014160156,
+        "lon": -42.03375244140625,
+        "clientes_potenciais": 50,
+        "clientes_unicos": 50,
+        "score": 50.0,
+        "cidade": "Manhuaçu"
+      },
+      {
+        "lat": -25.389202117919922,
+        "lon": -51.468788146972656,
+        "clientes_potenciais": 48,
+        "clientes_unicos": 48,
+        "score": 48.0,
+        "cidade": "Guarapuava"
+      },
+      {
+        "lat": -21.425310134887695,
+        "lon": -45.95099639892578,
+        "clientes_potenciais": 48,
+        "clientes_unicos": 48,
+        "score": 48.0,
+        "cidade": "Alfenas"
+      },
+      {
+        "lat": -19.650686264038086,
+        "lon": -43.9087028503418,
+        "clientes_potenciais": 46,
+        "clientes_unicos": 46,
+        "score": 46.0,
+        "cidade": "Lagoa Santa"
+      },
+      {
+        "lat": -21.783998489379883,
+        "lon": -48.173397064208984,
+        "clientes_potenciais": 44,
+        "clientes_unicos": 44,
+        "score": 44.0,
+        "cidade": "Araraquara"
+      },
+      {
+        "lat": -22.43549346923828,
+        "lon": -46.82090759277344,
+        "clientes_potenciais": 43,
+        "clientes_unicos": 43,
+        "score": 43.0,
+        "cidade": "Itapira"
+      },
+      {
+        "lat": -23.706079483032227,
+        "lon": -46.78163528442383,
+        "clientes_potenciais": 64,
+        "clientes_unicos": 42,
+        "score": 42.0,
+        "cidade": "São Paulo"
+      },
+      {
+        "lat": -22.99420738220215,
+        "lon": -43.38240051269531,
+        "clientes_potenciais": 47,
+        "clientes_unicos": 42,
+        "score": 42.0,
+        "cidade": "Rio de Janeiro"
+      },
+      {
+        "lat": -18.934856414794922,
+        "lon": -48.263668060302734,
+        "clientes_potenciais": 154,
+        "clientes_unicos": 40,
+        "score": 40.0,
+        "cidade": "Uberlândia"
+      },
+      {
+        "lat": -21.199403762817383,
+        "lon": -47.80503463745117,
+        "clientes_potenciais": 219,
+        "clientes_unicos": 40,
+        "score": 40.0,
+        "cidade": "Ribeirão Preto"
+      },
+      {
+        "lat": -23.473237991333008,
+        "lon": -46.64727020263672,
+        "clientes_potenciais": 169,
+        "clientes_unicos": 39,
+        "score": 39.0,
+        "cidade": "São Paulo"
+      },
+      {
+        "lat": -20.419151306152344,
+        "lon": -49.97234344482422,
+        "clientes_potenciais": 38,
+        "clientes_unicos": 38,
+        "score": 38.0,
+        "cidade": "Votuporanga"
+      },
+      {
+        "lat": -22.738719940185547,
+        "lon": -46.89472579956055,
+        "clientes_potenciais": 37,
+        "clientes_unicos": 37,
+        "score": 37.0,
+        "cidade": "Pedreira"
+      },
+      {
+        "lat": -16.016925811767578,
+        "lon": -48.04340362548828,
+        "clientes_potenciais": 36,
+        "clientes_unicos": 36,
+        "score": 36.0,
+        "cidade": "Gama"
+      },
+      {
+        "lat": -22.73191261291504,
+        "lon": -47.340641021728516,
+        "clientes_potenciais": 227,
+        "clientes_unicos": 35,
+        "score": 35.0,
+        "cidade": "Americana"
+      },
+      {
+        "lat": -23.348621368408203,
+        "lon": -47.85059356689453,
+        "clientes_potenciais": 35,
+        "clientes_unicos": 35,
+        "score": 35.0,
+        "cidade": "Tatuí"
+      },
+      {
+        "lat": -24.0150089263916,
+        "lon": -46.4524040222168,
+        "clientes_potenciais": 40,
+        "clientes_unicos": 35,
+        "score": 35.0,
+        "cidade": "Praia Grande"
+      },
+      {
+        "lat": -27.128969192504883,
+        "lon": -48.92198181152344,
+        "clientes_potenciais": 70,
+        "clientes_unicos": 35,
+        "score": 35.0,
+        "cidade": "Brusque"
+      },
+      {
+        "lat": -23.556461334228516,
+        "lon": -51.46025466918945,
+        "clientes_potenciais": 35,
+        "clientes_unicos": 35,
+        "score": 35.0,
+        "cidade": "Apucarana"
+      },
+      {
+        "lat": -17.885555267333984,
+        "lon": -51.72663497924805,
+        "clientes_potenciais": 35,
+        "clientes_unicos": 35,
+        "score": 35.0,
+        "cidade": "Jataí"
+      },
+      {
+        "lat": -25.105960845947266,
+        "lon": -50.138877868652344,
+        "clientes_potenciais": 113,
+        "clientes_unicos": 34,
+        "score": 34.0,
+        "cidade": "Ponta Grossa"
+      },
+      {
+        "lat": -16.7178897857666,
+        "lon": -49.23776626586914,
+        "clientes_potenciais": 154,
+        "clientes_unicos": 32,
+        "score": 32.0,
+        "cidade": "Goiânia"
+      },
+      {
+        "lat": -22.894561767578125,
+        "lon": -47.17631912231445,
+        "clientes_potenciais": 65,
+        "clientes_unicos": 31,
+        "score": 31.0,
+        "cidade": "Hortolândia"
+      },
+      {
+        "lat": -26.28511619567871,
+        "lon": -48.8411979675293,
+        "clientes_potenciais": 306,
+        "clientes_unicos": 30,
+        "score": 30.0,
+        "cidade": "Joinville"
+      },
+      {
+        "lat": -22.073997497558594,
+        "lon": -46.57704162597656,
+        "clientes_potenciais": 30,
+        "clientes_unicos": 30,
+        "score": 30.0,
+        "cidade": "Andradas"
+      },
+      {
+        "lat": -22.79511260986328,
+        "lon": -47.21540451049805,
+        "clientes_potenciais": 37,
+        "clientes_unicos": 29,
+        "score": 29.0,
+        "cidade": "Sumaré"
+      },
+      {
+        "lat": -23.766490936279297,
+        "lon": -53.310176849365234,
+        "clientes_potenciais": 123,
+        "clientes_unicos": 29,
+        "score": 29.0,
+        "cidade": "Umuarama"
+      },
+      {
+        "lat": -22.9609432220459,
+        "lon": -47.1644287109375,
+        "clientes_potenciais": 73,
+        "clientes_unicos": 28,
+        "score": 28.0,
+        "cidade": "Campinas"
+      },
+      {
+        "lat": -23.411283493041992,
+        "lon": -51.93030548095703,
+        "clientes_potenciais": 226,
+        "clientes_unicos": 28,
+        "score": 28.0,
+        "cidade": "Maringá"
+      },
+      {
+        "lat": -24.04252052307129,
+        "lon": -52.37592697143555,
+        "clientes_potenciais": 28,
+        "clientes_unicos": 28,
+        "score": 28.0,
+        "cidade": "Campo Mourão"
+      },
+      {
+        "lat": -23.483001708984375,
+        "lon": -46.85971450805664,
+        "clientes_potenciais": 46,
+        "clientes_unicos": 27,
+        "score": 27.0,
+        "cidade": "Barueri"
+      },
+      {
+        "lat": -16.740095138549805,
+        "lon": -49.357269287109375,
+        "clientes_potenciais": 52,
+        "clientes_unicos": 27,
+        "score": 27.0,
+        "cidade": "Goiânia"
+      },
+      {
+        "lat": -22.85474967956543,
+        "lon": -46.32108688354492,
+        "clientes_potenciais": 26,
+        "clientes_unicos": 26,
+        "score": 26.0,
+        "cidade": "Extrema"
+      },
+      {
+        "lat": -26.8988037109375,
+        "lon": -49.24137496948242,
+        "clientes_potenciais": 26,
+        "clientes_unicos": 26,
+        "score": 26.0,
+        "cidade": "Indaial"
+      },
+      {
+        "lat": -25.44055938720703,
+        "lon": -49.28750991821289,
+        "clientes_potenciais": 230,
+        "clientes_unicos": 26,
+        "score": 26.0,
+        "cidade": "Curitiba"
+      },
+      {
+        "lat": -21.13409423828125,
+        "lon": -42.37295913696289,
+        "clientes_potenciais": 26,
+        "clientes_unicos": 26,
+        "score": 26.0,
+        "cidade": "Muriaé"
+      },
+      {
+        "lat": -23.099409103393555,
+        "lon": -47.711517333984375,
+        "clientes_potenciais": 25,
+        "clientes_unicos": 25,
+        "score": 25.0,
+        "cidade": "Tietê"
+      },
+      {
+        "lat": -19.45575714111328,
+        "lon": -44.24060821533203,
+        "clientes_potenciais": 25,
+        "clientes_unicos": 25,
+        "score": 25.0,
+        "cidade": "Sete Lagoas"
+      },
+      {
+        "lat": -20.08112335205078,
+        "lon": -44.580848693847656,
+        "clientes_potenciais": 25,
+        "clientes_unicos": 25,
+        "score": 25.0,
+        "cidade": "Itaúna"
+      },
+      {
+        "lat": -20.149499893188477,
+        "lon": -44.89555358886719,
+        "clientes_potenciais": 78,
+        "clientes_unicos": 25,
+        "score": 25.0,
+        "cidade": "Divinópolis"
+      },
+      {
+        "lat": -29.227066040039062,
+        "lon": -51.34218978881836,
+        "clientes_potenciais": 25,
+        "clientes_unicos": 25,
+        "score": 25.0,
+        "cidade": "Farroupilha"
+      },
+      {
+        "lat": -19.77822494506836,
+        "lon": -42.13842010498047,
+        "clientes_potenciais": 25,
+        "clientes_unicos": 25,
+        "score": 25.0,
+        "cidade": "Caratinga"
+      },
+      {
+        "lat": -22.71022605895996,
+        "lon": -46.77742385864258,
+        "clientes_potenciais": 24,
+        "clientes_unicos": 24,
+        "score": 24.0,
+        "cidade": "Amparo"
+      },
+      {
+        "lat": -22.810150146484375,
+        "lon": -47.080406188964844,
+        "clientes_potenciais": 36,
+        "clientes_unicos": 24,
+        "score": 24.0,
+        "cidade": "Campinas"
+      },
+      {
+        "lat": -20.73605728149414,
+        "lon": -48.90916061401367,
+        "clientes_potenciais": 24,
+        "clientes_unicos": 24,
+        "score": 24.0,
+        "cidade": "Olímpia"
+      },
+      {
+        "lat": -25.573097229003906,
+        "lon": -49.39436721801758,
+        "clientes_potenciais": 24,
+        "clientes_unicos": 24,
+        "score": 24.0,
+        "cidade": "Araucária"
+      },
+      {
+        "lat": -25.656190872192383,
+        "lon": -49.30900573730469,
+        "clientes_potenciais": 24,
+        "clientes_unicos": 24,
+        "score": 24.0,
+        "cidade": "Fazenda Rio Grande"
+      },
+      {
+        "lat": -21.85346794128418,
+        "lon": -47.474769592285156,
+        "clientes_potenciais": 24,
+        "clientes_unicos": 24,
+        "score": 24.0,
+        "cidade": "Porto Ferreira"
+      },
+      {
+        "lat": -19.89436912536621,
+        "lon": -43.97118377685547,
+        "clientes_potenciais": 431,
+        "clientes_unicos": 23,
+        "score": 23.0,
+        "cidade": "Belo Horizonte"
+      },
+      {
+        "lat": -30.062040328979492,
+        "lon": -51.0888671875,
+        "clientes_potenciais": 29,
+        "clientes_unicos": 23,
+        "score": 23.0,
+        "cidade": "Viamão"
+      },
+      {
+        "lat": -16.311199188232422,
+        "lon": -48.95354080200195,
+        "clientes_potenciais": 44,
+        "clientes_unicos": 22,
+        "score": 22.0,
+        "cidade": "Anápolis"
+      },
+      {
+        "lat": -19.774412155151367,
+        "lon": -44.13827896118164,
+        "clientes_potenciais": 22,
+        "clientes_unicos": 22,
+        "score": 22.0,
+        "cidade": "Ribeirão das Neves"
+      },
+      {
+        "lat": -23.407608032226562,
+        "lon": -51.43909454345703,
+        "clientes_potenciais": 22,
+        "clientes_unicos": 22,
+        "score": 22.0,
+        "cidade": "Arapongas"
+      },
+      {
+        "lat": -19.3853702545166,
+        "lon": -40.06048583984375,
+        "clientes_potenciais": 22,
+        "clientes_unicos": 22,
+        "score": 22.0,
+        "cidade": "Linhares"
+      },
+      {
+        "lat": -25.456743240356445,
+        "lon": -49.5386962890625,
+        "clientes_potenciais": 22,
+        "clientes_unicos": 22,
+        "score": 22.0,
+        "cidade": "Campo Largo"
+      },
+      {
+        "lat": -3.7426064014434814,
+        "lon": -38.487945556640625,
+        "clientes_potenciais": 81,
+        "clientes_unicos": 21,
+        "score": 21.0,
+        "cidade": "Fortaleza"
+      },
+      {
+        "lat": -27.440608978271484,
+        "lon": -48.40596389770508,
+        "clientes_potenciais": 21,
+        "clientes_unicos": 21,
+        "score": 21.0,
+        "cidade": "Florianópolis"
+      },
+      {
+        "lat": -18.41340446472168,
+        "lon": -49.220699310302734,
+        "clientes_potenciais": 21,
+        "clientes_unicos": 21,
+        "score": 21.0,
+        "cidade": "Itumbiara"
+      },
+      {
+        "lat": -18.945676803588867,
+        "lon": -46.99457931518555,
+        "clientes_potenciais": 21,
+        "clientes_unicos": 21,
+        "score": 21.0,
+        "cidade": "Patrocínio"
+      },
+      {
+        "lat": -20.410518646240234,
+        "lon": -42.89906311035156,
+        "clientes_potenciais": 21,
+        "clientes_unicos": 21,
+        "score": 21.0,
+        "cidade": "Ponte Nova"
+      },
+      {
+        "lat": -21.119770050048828,
+        "lon": -42.93873977661133,
+        "clientes_potenciais": 21,
+        "clientes_unicos": 21,
+        "score": 21.0,
+        "cidade": "Ubá"
+      },
+      {
+        "lat": -23.40938377380371,
+        "lon": -46.854637145996094,
+        "clientes_potenciais": 20,
+        "clientes_unicos": 20,
+        "score": 20.0,
+        "cidade": "Cajamar"
+      },
+      {
+        "lat": -19.736370086669922,
+        "lon": -47.9091682434082,
+        "clientes_potenciais": 102,
+        "clientes_unicos": 20,
+        "score": 20.0,
+        "cidade": "Uberaba"
+      },
+      {
+        "lat": -21.97374725341797,
+        "lon": -46.790279388427734,
+        "clientes_potenciais": 20,
+        "clientes_unicos": 20,
+        "score": 20.0,
+        "cidade": "São João da Boa Vista"
+      },
+      {
+        "lat": -22.751432418823242,
+        "lon": -47.61643600463867,
+        "clientes_potenciais": 94,
+        "clientes_unicos": 19,
+        "score": 19.0,
+        "cidade": "Piracicaba"
+      },
+      {
+        "lat": -23.447004318237305,
+        "lon": -47.497257232666016,
+        "clientes_potenciais": 94,
+        "clientes_unicos": 19,
+        "score": 19.0,
+        "cidade": "Sorocaba"
+      },
+      {
+        "lat": -12.89586067199707,
+        "lon": -38.41680145263672,
+        "clientes_potenciais": 57,
+        "clientes_unicos": 19,
+        "score": 19.0,
+        "cidade": "Salvador"
+      },
+      {
+        "lat": -29.908058166503906,
+        "lon": -51.164344787597656,
+        "clientes_potenciais": 53,
+        "clientes_unicos": 19,
+        "score": 19.0,
+        "cidade": "Canoas"
+      },
+      {
+        "lat": -23.986370086669922,
+        "lon": -48.87930679321289,
+        "clientes_potenciais": 19,
+        "clientes_unicos": 19,
+        "score": 19.0,
+        "cidade": "Itapeva"
+      },
+      {
+        "lat": -18.977493286132812,
+        "lon": -49.45655059814453,
+        "clientes_potenciais": 19,
+        "clientes_unicos": 19,
+        "score": 19.0,
+        "cidade": "Ituiutaba"
+      },
+      {
+        "lat": -17.795377731323242,
+        "lon": -50.930538177490234,
+        "clientes_potenciais": 54,
+        "clientes_unicos": 19,
+        "score": 19.0,
+        "cidade": "Rio Verde"
+      },
+      {
+        "lat": -22.813644409179688,
+        "lon": -47.021236419677734,
+        "clientes_potenciais": 26,
+        "clientes_unicos": 18,
+        "score": 18.0,
+        "cidade": "Campinas"
+      },
+      {
+        "lat": -23.617084503173828,
+        "lon": -46.73468780517578,
+        "clientes_potenciais": 189,
+        "clientes_unicos": 18,
+        "score": 18.0,
+        "cidade": "São Paulo"
+      },
+      {
+        "lat": -3.794830322265625,
+        "lon": -38.590553283691406,
+        "clientes_potenciais": 39,
+        "clientes_unicos": 18,
+        "score": 18.0,
+        "cidade": "Fortaleza"
+      },
+      {
+        "lat": -29.68133544921875,
+        "lon": -51.45804977416992,
+        "clientes_potenciais": 18,
+        "clientes_unicos": 18,
+        "score": 18.0,
+        "cidade": "Montenegro"
+      },
+      {
+        "lat": -23.554140090942383,
+        "lon": -47.47793960571289,
+        "clientes_potenciais": 108,
+        "clientes_unicos": 17,
+        "score": 17.0,
+        "cidade": "Votorantim"
+      },
+      {
+        "lat": -16.81731414794922,
+        "lon": -49.25810241699219,
+        "clientes_potenciais": 21,
+        "clientes_unicos": 17,
+        "score": 17.0,
+        "cidade": "Aparecida de Goiânia"
+      },
+      {
+        "lat": -12.70335578918457,
+        "lon": -38.32598114013672,
+        "clientes_potenciais": 17,
+        "clientes_unicos": 17,
+        "score": 17.0,
+        "cidade": "Camaçari"
+      },
+      {
+        "lat": -28.479148864746094,
+        "lon": -49.00485610961914,
+        "clientes_potenciais": 19,
+        "clientes_unicos": 17,
+        "score": 17.0,
+        "cidade": "Tubarão"
+      },
+      {
+        "lat": -8.196052551269531,
+        "lon": -34.92416000366211,
+        "clientes_potenciais": 26,
+        "clientes_unicos": 17,
+        "score": 17.0,
+        "cidade": "Jaboatão dos Guararapes"
+      },
+      {
+        "lat": -23.287254333496094,
+        "lon": -51.25875473022461,
+        "clientes_potenciais": 27,
+        "clientes_unicos": 17,
+        "score": 17.0,
+        "cidade": "Cambé"
+      },
+      {
+        "lat": -25.483657836914062,
+        "lon": -49.1685905456543,
+        "clientes_potenciais": 85,
+        "clientes_unicos": 17,
+        "score": 17.0,
+        "cidade": "São José dos Pinhais"
+      },
+      {
+        "lat": -21.786178588867188,
+        "lon": -43.374168395996094,
+        "clientes_potenciais": 82,
+        "clientes_unicos": 16,
+        "score": 16.0,
+        "cidade": "Juiz de Fora"
+      },
+      {
+        "lat": -26.483543395996094,
+        "lon": -49.06996154785156,
+        "clientes_potenciais": 67,
+        "clientes_unicos": 16,
+        "score": 16.0,
+        "cidade": "Jaraguá do Sul"
+      },
+      {
+        "lat": -19.767131805419922,
+        "lon": -44.083473205566406,
+        "clientes_potenciais": 16,
+        "clientes_unicos": 16,
+        "score": 16.0,
+        "cidade": "Ribeirão das Neves"
+      },
+      {
+        "lat": -20.939363479614258,
+        "lon": -48.48472595214844,
+        "clientes_potenciais": 16,
+        "clientes_unicos": 16,
+        "score": 16.0,
+        "cidade": "Bebedouro"
+      },
+      {
+        "lat": -22.329862594604492,
+        "lon": -49.10711669921875,
+        "clientes_potenciais": 74,
+        "clientes_unicos": 16,
+        "score": 16.0,
+        "cidade": "Bauru"
+      },
+      {
+        "lat": -8.085105895996094,
+        "lon": -34.96157455444336,
+        "clientes_potenciais": 68,
+        "clientes_unicos": 16,
+        "score": 16.0,
+        "cidade": "Recife"
+      },
+      {
+        "lat": -8.760665893554688,
+        "lon": -63.880470275878906,
+        "clientes_potenciais": 16,
+        "clientes_unicos": 16,
+        "score": 16.0,
+        "cidade": "Porto Velho"
+      },
+      {
+        "lat": -21.471162796020508,
+        "lon": -47.00550842285156,
+        "clientes_potenciais": 16,
+        "clientes_unicos": 16,
+        "score": 16.0,
+        "cidade": "Mococa"
+      },
+      {
+        "lat": -23.10112762451172,
+        "lon": -45.70271682739258,
+        "clientes_potenciais": 15,
+        "clientes_unicos": 15,
+        "score": 15.0,
+        "cidade": "Caçapava"
+      },
+      {
+        "lat": -19.85319709777832,
+        "lon": -44.14555358886719,
+        "clientes_potenciais": 15,
+        "clientes_unicos": 15,
+        "score": 15.0,
+        "cidade": "Contagem"
+      },
+      {
+        "lat": -20.273456573486328,
+        "lon": -50.54730987548828,
+        "clientes_potenciais": 15,
+        "clientes_unicos": 15,
+        "score": 15.0,
+        "cidade": "Jales"
+      },
+      {
+        "lat": -19.824575424194336,
+        "lon": -40.27367401123047,
+        "clientes_potenciais": 15,
+        "clientes_unicos": 15,
+        "score": 15.0,
+        "cidade": "Aracruz"
+      },
+      {
+        "lat": -22.47954559326172,
+        "lon": -47.45875549316406,
+        "clientes_potenciais": 14,
+        "clientes_unicos": 14,
+        "score": 14.0,
+        "cidade": "Cordeirópolis"
+      },
+      {
+        "lat": -22.994049072265625,
+        "lon": -47.506935119628906,
+        "clientes_potenciais": 14,
+        "clientes_unicos": 14,
+        "score": 14.0,
+        "cidade": "Capivari"
+      },
+      {
+        "lat": -17.22721290588379,
+        "lon": -46.87128448486328,
+        "clientes_potenciais": 14,
+        "clientes_unicos": 14,
+        "score": 14.0,
+        "cidade": "Paracatu"
+      },
+      {
+        "lat": -19.892433166503906,
+        "lon": -43.8067741394043,
+        "clientes_potenciais": 14,
+        "clientes_unicos": 14,
+        "score": 14.0,
+        "cidade": "Sabará"
+      },
+      {
+        "lat": -29.158124923706055,
+        "lon": -51.175716400146484,
+        "clientes_potenciais": 276,
+        "clientes_unicos": 14,
+        "score": 14.0,
+        "cidade": "Caxias do Sul"
+      },
+      {
+        "lat": -23.532522201538086,
+        "lon": -49.24262619018555,
+        "clientes_potenciais": 14,
+        "clientes_unicos": 14,
+        "score": 14.0,
+        "cidade": "Taquarituba"
+      },
+      {
+        "lat": -18.173839569091797,
+        "lon": -47.95216369628906,
+        "clientes_potenciais": 14,
+        "clientes_unicos": 14,
+        "score": 14.0,
+        "cidade": "Catalão"
+      },
+      {
+        "lat": -5.074007987976074,
+        "lon": -42.770572662353516,
+        "clientes_potenciais": 25,
+        "clientes_unicos": 13,
+        "score": 13.0,
+        "cidade": "Teresina"
+      },
+      {
+        "lat": -24.95559310913086,
+        "lon": -53.461673736572266,
+        "clientes_potenciais": 316,
+        "clientes_unicos": 13,
+        "score": 13.0,
+        "cidade": "Cascavel"
+      },
+      {
+        "lat": -12.841371536254883,
+        "lon": -38.27954864501953,
+        "clientes_potenciais": 21,
+        "clientes_unicos": 13,
+        "score": 13.0,
+        "cidade": "Camaçari"
+      },
+      {
+        "lat": -27.671113967895508,
+        "lon": -48.486080169677734,
+        "clientes_potenciais": 13,
+        "clientes_unicos": 13,
+        "score": 13.0,
+        "cidade": "Florianópolis"
+      },
+      {
+        "lat": -21.220998764038086,
+        "lon": -43.77289962768555,
+        "clientes_potenciais": 13,
+        "clientes_unicos": 13,
+        "score": 13.0,
+        "cidade": "Barbacena"
+      },
+      {
+        "lat": -29.64739227294922,
+        "lon": -50.78119659423828,
+        "clientes_potenciais": 13,
+        "clientes_unicos": 13,
+        "score": 13.0,
+        "cidade": "Taquara"
+      },
+      {
+        "lat": -7.196442127227783,
+        "lon": -48.20689010620117,
+        "clientes_potenciais": 13,
+        "clientes_unicos": 13,
+        "score": 13.0,
+        "cidade": "Araguaína"
+      },
+      {
+        "lat": -18.71875762939453,
+        "lon": -39.858787536621094,
+        "clientes_potenciais": 13,
+        "clientes_unicos": 13,
+        "score": 13.0,
+        "cidade": "São Mateus"
+      },
+      {
+        "lat": -25.305906295776367,
+        "lon": -49.2989616394043,
+        "clientes_potenciais": 13,
+        "clientes_unicos": 13,
+        "score": 13.0,
+        "cidade": "Almirante Tamandaré"
+      },
+      {
+        "lat": -22.002635955810547,
+        "lon": -47.42586135864258,
+        "clientes_potenciais": 13,
+        "clientes_unicos": 13,
+        "score": 13.0,
+        "cidade": "Pirassununga"
+      },
+      {
+        "lat": -23.628828048706055,
+        "lon": -46.60871887207031,
+        "clientes_potenciais": 348,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "São Paulo"
+      },
+      {
+        "lat": -3.8495051860809326,
+        "lon": -38.506103515625,
+        "clientes_potenciais": 28,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Fortaleza"
+      },
+      {
+        "lat": -16.061429977416992,
+        "lon": -47.98521423339844,
+        "clientes_potenciais": 12,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Valparaíso de Goiás"
+      },
+      {
+        "lat": -16.613243103027344,
+        "lon": -49.343994140625,
+        "clientes_potenciais": 18,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Goiânia"
+      },
+      {
+        "lat": -16.626033782958984,
+        "lon": -49.22140884399414,
+        "clientes_potenciais": 48,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Goiânia"
+      },
+      {
+        "lat": -21.23979377746582,
+        "lon": -44.998958587646484,
+        "clientes_potenciais": 12,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Lavras"
+      },
+      {
+        "lat": -29.391868591308594,
+        "lon": -50.877952575683594,
+        "clientes_potenciais": 12,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Gramado"
+      },
+      {
+        "lat": -22.914051055908203,
+        "lon": -47.09956741333008,
+        "clientes_potenciais": 190,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Campinas"
+      },
+      {
+        "lat": -3.896063804626465,
+        "lon": -38.45168685913086,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Eusébio"
+      },
+      {
+        "lat": -15.93976879119873,
+        "lon": -48.04375076293945,
+        "clientes_potenciais": 25,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Recanto das Emas"
+      },
+      {
+        "lat": -24.552326202392578,
+        "lon": -54.05879211425781,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Marechal Cândido Rondon"
+      },
+      {
+        "lat": -26.196086883544922,
+        "lon": -48.913848876953125,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Joinville"
+      },
+      {
+        "lat": -20.173137664794922,
+        "lon": -43.95725631713867,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Nova Lima"
+      },
+      {
+        "lat": -12.546246528625488,
+        "lon": -55.729644775390625,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Sorriso"
+      },
+      {
+        "lat": -8.12183952331543,
+        "lon": -34.90392303466797,
+        "clientes_potenciais": 97,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Recife"
+      },
+      {
+        "lat": -30.051410675048828,
+        "lon": -51.15289306640625,
+        "clientes_potenciais": 115,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Porto Alegre"
+      },
+      {
+        "lat": -30.150127410888672,
+        "lon": -51.19627380371094,
+        "clientes_potenciais": 34,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Porto Alegre"
+      },
+      {
+        "lat": -24.331022262573242,
+        "lon": -50.62102127075195,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Telêmaco Borba"
+      },
+      {
+        "lat": -25.449586868286133,
+        "lon": -49.073001861572266,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Piraquara"
+      },
+      {
+        "lat": -26.109167098999023,
+        "lon": -49.8019905090332,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Rio Negro"
+      },
+      {
+        "lat": -20.75115203857422,
+        "lon": -42.87733840942383,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Viçosa"
+      },
+      {
+        "lat": -23.565017700195312,
+        "lon": -46.804710388183594,
+        "clientes_potenciais": 181,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Osasco"
+      },
+      {
+        "lat": -26.236011505126953,
+        "lon": -49.39535140991211,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "São Bento do Sul"
+      },
+      {
+        "lat": -20.022907257080078,
+        "lon": -45.5400276184082,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Lagoa da Prata"
+      },
+      {
+        "lat": -8.023941040039062,
+        "lon": -34.982032775878906,
+        "clientes_potenciais": 22,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Camaragibe"
+      },
+      {
+        "lat": -28.50547218322754,
+        "lon": -50.938419342041016,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Vacaria"
+      },
+      {
+        "lat": -29.935239791870117,
+        "lon": -50.9970588684082,
+        "clientes_potenciais": 18,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Gravataí"
+      },
+      {
+        "lat": -31.759248733520508,
+        "lon": -52.233436584472656,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Pelotas"
+      },
+      {
+        "lat": -8.028419494628906,
+        "lon": -50.03174591064453,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Redenção"
+      },
+      {
+        "lat": -20.337926864624023,
+        "lon": -40.281925201416016,
+        "clientes_potenciais": 96,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Vila Velha"
+      },
+      {
+        "lat": -26.179349899291992,
+        "lon": -50.38862228393555,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Canoinhas"
+      },
+      {
+        "lat": -23.679738998413086,
+        "lon": -46.54941177368164,
+        "clientes_potenciais": 279,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Santo André"
+      },
+      {
+        "lat": -15.928938865661621,
+        "lon": -47.95901870727539,
+        "clientes_potenciais": 15,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Park Way"
+      },
+      {
+        "lat": -16.669279098510742,
+        "lon": -49.16740036010742,
+        "clientes_potenciais": 17,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Senador Canedo"
+      },
+      {
+        "lat": -25.48670768737793,
+        "lon": -54.567291259765625,
+        "clientes_potenciais": 17,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Foz do Iguaçu"
+      },
+      {
+        "lat": -27.01019859313965,
+        "lon": -51.13760757446289,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Videira"
+      },
+      {
+        "lat": -27.09125328063965,
+        "lon": -52.607059478759766,
+        "clientes_potenciais": 175,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Chapecó"
+      },
+      {
+        "lat": -29.661590576171875,
+        "lon": -51.179805755615234,
+        "clientes_potenciais": 27,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Estância Velha"
+      },
+      {
+        "lat": -32.03495788574219,
+        "lon": -52.099185943603516,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Rio Grande"
+      },
+      {
+        "lat": -22.660398483276367,
+        "lon": -50.42132568359375,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Assis"
+      },
+      {
+        "lat": -17.869335174560547,
+        "lon": -41.504608154296875,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Teófilo Otoni"
+      },
+      {
+        "lat": -24.006072998046875,
+        "lon": -48.34865951538086,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Capão Bonito"
+      },
+      {
+        "lat": -25.52994728088379,
+        "lon": -49.09567642211914,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "São José dos Pinhais"
+      },
+      {
+        "lat": -18.644758224487305,
+        "lon": -48.191585540771484,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Araguari"
+      },
+      {
+        "lat": -16.356834411621094,
+        "lon": -49.499332427978516,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Inhumas"
+      },
+      {
+        "lat": -25.29613494873047,
+        "lon": -54.09889221191406,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Medianeira"
+      },
+      {
+        "lat": -26.484472274780273,
+        "lon": -51.991878509521484,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Palmas"
+      },
+      {
+        "lat": -26.77737808227539,
+        "lon": -51.02204513549805,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Caçador"
+      },
+      {
+        "lat": -26.25581169128418,
+        "lon": -49.51821517944336,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Rio Negrinho"
+      },
+      {
+        "lat": -27.18466567993164,
+        "lon": -49.60184097290039,
+        "clientes_potenciais": 41,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Rio do Sul"
+      },
+      {
+        "lat": -27.438690185546875,
+        "lon": -48.48643493652344,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Florianópolis"
+      },
+      {
+        "lat": -27.586936950683594,
+        "lon": -48.50041198730469,
+        "clientes_potenciais": 31,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Florianópolis"
+      },
+      {
+        "lat": -20.144412994384766,
+        "lon": -44.20444869995117,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Brumadinho"
+      },
+      {
+        "lat": -15.668794631958008,
+        "lon": -56.13526153564453,
+        "clientes_potenciais": 25,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Várzea Grande"
+      },
+      {
+        "lat": -21.20273208618164,
+        "lon": -49.29386901855469,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Urupês"
+      },
+      {
+        "lat": -22.97606658935547,
+        "lon": -49.88060760498047,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Ourinhos"
+      },
+      {
+        "lat": -28.25863265991211,
+        "lon": -52.41071319580078,
+        "clientes_potenciais": 82,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Passo Fundo"
+      },
+      {
+        "lat": -29.750028610229492,
+        "lon": -51.090030670166016,
+        "clientes_potenciais": 21,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "São Leopoldo"
+      },
+      {
+        "lat": -30.12131118774414,
+        "lon": -51.32329559326172,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Guaíba"
+      },
+      {
+        "lat": -22.521608352661133,
+        "lon": -55.725364685058594,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Ponta Porã"
+      },
+      {
+        "lat": -24.791698455810547,
+        "lon": -50.0054931640625,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Castro"
+      },
+      {
+        "lat": -21.371042251586914,
+        "lon": -45.51680374145508,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Três Pontas"
+      },
+      {
+        "lat": -21.730371475219727,
+        "lon": -48.1112060546875,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Américo Brasiliense"
+      },
+      {
+        "lat": -21.787912368774414,
+        "lon": -46.59986114501953,
+        "clientes_potenciais": 38,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Poços de Caldas"
+      },
+      {
+        "lat": -21.98335075378418,
+        "lon": -47.93555450439453,
+        "clientes_potenciais": 28,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "São Carlos"
+      },
+      {
+        "lat": -22.2836971282959,
+        "lon": -46.95515823364258,
+        "clientes_potenciais": 12,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Estiva Gerbi"
+      },
+      {
+        "lat": -22.337587356567383,
+        "lon": -47.17068862915039,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Conchal"
+      },
+      {
+        "lat": -17.56032371520996,
+        "lon": -52.55218505859375,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Mineiros"
+      },
+      {
+        "lat": -20.418148040771484,
+        "lon": -54.63779067993164,
+        "clientes_potenciais": 30,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Campo Grande"
+      },
+      {
+        "lat": -15.672256469726562,
+        "lon": -48.199058532714844,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Brazlândia"
+      },
+      {
+        "lat": -12.980005264282227,
+        "lon": -38.45322036743164,
+        "clientes_potenciais": 134,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Salvador"
+      },
+      {
+        "lat": -18.75673484802246,
+        "lon": -44.43316650390625,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Curvelo"
+      },
+      {
+        "lat": -20.393054962158203,
+        "lon": -43.50351333618164,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Ouro Preto"
+      },
+      {
+        "lat": -20.524782180786133,
+        "lon": -43.69279861450195,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Ouro Branco"
+      },
+      {
+        "lat": -21.138797760009766,
+        "lon": -44.25635528564453,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "São João del-Rei"
+      },
+      {
+        "lat": -15.56046199798584,
+        "lon": -56.048282623291016,
+        "clientes_potenciais": 23,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Cuiabá"
+      },
+      {
+        "lat": -20.80097007751465,
+        "lon": -51.69504928588867,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Três Lagoas"
+      },
+      {
+        "lat": -21.095043182373047,
+        "lon": -48.66358947753906,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Pirangi"
+      },
+      {
+        "lat": -21.670196533203125,
+        "lon": -49.74875259399414,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Lins"
+      },
+      {
+        "lat": -7.174709320068359,
+        "lon": -34.867305755615234,
+        "clientes_potenciais": 18,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "João Pessoa"
+      },
+      {
+        "lat": -8.290911674499512,
+        "lon": -35.03090286254883,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Cabo de Santo Agostinho"
+      },
+      {
+        "lat": -3.2130870819091797,
+        "lon": -52.21956253051758,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Altamira"
+      },
+      {
+        "lat": -17.74868392944336,
+        "lon": -48.62367248535156,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Caldas Novas"
+      },
+      {
+        "lat": -21.997432708740234,
+        "lon": -47.886322021484375,
+        "clientes_potenciais": 74,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "São Carlos"
+      },
+      {
+        "lat": -20.4464168548584,
+        "lon": -54.679664611816406,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Campo Grande"
+      },
+      {
+        "lat": -15.811263084411621,
+        "lon": -47.959266662597656,
+        "clientes_potenciais": 173,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "SIA"
+      },
+      {
+        "lat": -11.30846118927002,
+        "lon": -41.85221481323242,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Irecê"
+      },
+      {
+        "lat": -21.69889259338379,
+        "lon": -43.43748474121094,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Juiz de Fora"
+      },
+      {
+        "lat": -22.506784439086914,
+        "lon": -41.9255485534668,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Rio das Ostras"
+      },
+      {
+        "lat": -27.224140167236328,
+        "lon": -49.636356353759766,
+        "clientes_potenciais": 107,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Rio do Sul"
+      },
+      {
+        "lat": -19.7708740234375,
+        "lon": -44.31357955932617,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Esmeraldas"
+      },
+      {
+        "lat": -19.74308967590332,
+        "lon": -45.2587890625,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Bom Despacho"
+      },
+      {
+        "lat": -20.784894943237305,
+        "lon": -49.81517791748047,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Poloni"
+      },
+      {
+        "lat": -20.844871520996094,
+        "lon": -49.63347244262695,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Neves Paulista"
+      },
+      {
+        "lat": -21.08137321472168,
+        "lon": -49.239959716796875,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Ibirá"
+      },
+      {
+        "lat": -22.60064697265625,
+        "lon": -48.79246139526367,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Lençóis Paulista"
+      },
+      {
+        "lat": -22.894540786743164,
+        "lon": -49.62282180786133,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Santa Cruz do Rio Pardo"
+      },
+      {
+        "lat": -8.00450611114502,
+        "lon": -35.04435348510742,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "São Lourenço da Mata"
+      },
+      {
+        "lat": -29.755102157592773,
+        "lon": -52.411094665527344,
+        "clientes_potenciais": 19,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Santa Cruz do Sul"
+      },
+      {
+        "lat": -20.43315315246582,
+        "lon": -40.34006881713867,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Vila Velha"
+      },
+      {
+        "lat": -21.268329620361328,
+        "lon": -48.3220100402832,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Jaboticabal"
+      },
+      {
+        "lat": -21.361974716186523,
+        "lon": -48.2275390625,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Guariba"
+      },
+      {
+        "lat": -21.388334274291992,
+        "lon": -42.69597625732422,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Cataguases"
+      },
+      {
+        "lat": -25.478565216064453,
+        "lon": -54.5042839050293,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Foz do Iguaçu"
+      },
+      {
+        "lat": -26.255537033081055,
+        "lon": -52.69127655029297,
+        "clientes_potenciais": 54,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Pato Branco"
+      },
+      {
+        "lat": -28.3010196685791,
+        "lon": -54.26776123046875,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Santo Ângelo"
+      },
+      {
+        "lat": -12.137030601501465,
+        "lon": -38.428802490234375,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Alagoinhas"
+      },
+      {
+        "lat": -22.295211791992188,
+        "lon": -42.532264709472656,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Nova Friburgo"
+      },
+      {
+        "lat": -20.081005096435547,
+        "lon": -49.91436767578125,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Cardoso"
+      },
+      {
+        "lat": -21.08345603942871,
+        "lon": -48.80099868774414,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Palmares Paulista"
+      },
+      {
+        "lat": -7.8492231369018555,
+        "lon": -35.259178161621094,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Carpina"
+      },
+      {
+        "lat": -7.990602016448975,
+        "lon": -38.291954040527344,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Serra Talhada"
+      },
+      {
+        "lat": -28.646413803100586,
+        "lon": -53.61016082763672,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Cruz Alta"
+      },
+      {
+        "lat": -30.06755828857422,
+        "lon": -51.21205520629883,
+        "clientes_potenciais": 118,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Porto Alegre"
+      },
+      {
+        "lat": -17.534025192260742,
+        "lon": -39.74830627441406,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Teixeira de Freitas"
+      },
+      {
+        "lat": -20.2646541595459,
+        "lon": -40.420658111572266,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Cariacica"
+      },
+      {
+        "lat": -20.372299194335938,
+        "lon": -40.30512619018555,
+        "clientes_potenciais": 81,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Vila Velha"
+      },
+      {
+        "lat": -22.385581970214844,
+        "lon": -47.55607223510742,
+        "clientes_potenciais": 95,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Rio Claro"
+      },
+      {
+        "lat": -22.49477767944336,
+        "lon": -48.55126190185547,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Barra Bonita"
+      },
+      {
+        "lat": -21.5317440032959,
+        "lon": -42.64293670654297,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Leopoldina"
+      },
+      {
+        "lat": -21.178720474243164,
+        "lon": -47.734798431396484,
+        "clientes_potenciais": 55,
+        "clientes_unicos": 4,
+        "score": 4.0,
+        "cidade": "Ribeirão Preto"
+      },
+      {
+        "lat": -27.259061813354492,
+        "lon": -49.69931411743164,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 3,
+        "score": 3.0,
+        "cidade": "Agronômica"
+      }
+    ],
+    "total_beneficiados": 11581,
+    "clientes_unicos_totais": 4532
+  },
+  "10": {
+    "sugestoes": [
+      {
+        "lat": -20.193952560424805,
+        "lon": -40.24132537841797,
+        "clientes_potenciais": 119,
+        "clientes_unicos": 98,
+        "score": 98.0,
+        "cidade": "Serra"
+      },
+      {
+        "lat": -26.077159881591797,
+        "lon": -53.050697326660156,
+        "clientes_potenciais": 85,
+        "clientes_unicos": 85,
+        "score": 85.0,
+        "cidade": "Francisco Beltrão"
+      },
+      {
+        "lat": -22.999399185180664,
+        "lon": -43.406707763671875,
+        "clientes_potenciais": 128,
+        "clientes_unicos": 72,
+        "score": 72.0,
+        "cidade": "Rio de Janeiro"
+      },
+      {
+        "lat": -23.170303344726562,
+        "lon": -46.967918395996094,
+        "clientes_potenciais": 236,
+        "clientes_unicos": 67,
+        "score": 67.0,
+        "cidade": "Jundiaí"
+      },
+      {
+        "lat": -20.724050521850586,
+        "lon": -46.608245849609375,
+        "clientes_potenciais": 67,
+        "clientes_unicos": 67,
+        "score": 67.0,
+        "cidade": "Passos"
+      },
+      {
+        "lat": -7.947845458984375,
+        "lon": -34.86086654663086,
+        "clientes_potenciais": 105,
+        "clientes_unicos": 60,
+        "score": 60.0,
+        "cidade": "Paulista"
+      },
+      {
+        "lat": -16.011356353759766,
+        "lon": -48.03592300415039,
+        "clientes_potenciais": 63,
+        "clientes_unicos": 56,
+        "score": 56.0,
+        "cidade": "Gama"
+      },
+      {
+        "lat": -23.758174896240234,
+        "lon": -46.72534942626953,
+        "clientes_potenciais": 168,
+        "clientes_unicos": 55,
+        "score": 55.0,
+        "cidade": "São Paulo"
+      },
+      {
+        "lat": -21.777708053588867,
+        "lon": -48.16691589355469,
+        "clientes_potenciais": 55,
+        "clientes_unicos": 55,
+        "score": 55.0,
+        "cidade": "Araraquara"
+      },
+      {
+        "lat": -25.598962783813477,
+        "lon": -49.345096588134766,
+        "clientes_potenciais": 100,
+        "clientes_unicos": 54,
+        "score": 54.0,
+        "cidade": "Curitiba"
+      },
+      {
+        "lat": -27.052804946899414,
+        "lon": -48.622615814208984,
+        "clientes_potenciais": 106,
+        "clientes_unicos": 54,
+        "score": 54.0,
+        "cidade": "Camboriú"
+      },
+      {
+        "lat": -22.726654052734375,
+        "lon": -46.84457778930664,
+        "clientes_potenciais": 59,
+        "clientes_unicos": 52,
+        "score": 52.0,
+        "cidade": "Amparo"
+      },
+      {
+        "lat": -20.256324768066406,
+        "lon": -42.03179931640625,
+        "clientes_potenciais": 52,
+        "clientes_unicos": 52,
+        "score": 52.0,
+        "cidade": "Manhuaçu"
+      },
+      {
+        "lat": -25.38927459716797,
+        "lon": -51.4697265625,
+        "clientes_potenciais": 49,
+        "clientes_unicos": 49,
+        "score": 49.0,
+        "cidade": "Guarapuava"
+      },
+      {
+        "lat": -21.425310134887695,
+        "lon": -45.95099639892578,
+        "clientes_potenciais": 48,
+        "clientes_unicos": 48,
+        "score": 48.0,
+        "cidade": "Alfenas"
+      },
+      {
+        "lat": -22.811370849609375,
+        "lon": -47.150917053222656,
+        "clientes_potenciais": 167,
+        "clientes_unicos": 46,
+        "score": 46.0,
+        "cidade": "Campinas"
+      },
+      {
+        "lat": -22.43549346923828,
+        "lon": -46.82090759277344,
+        "clientes_potenciais": 44,
+        "clientes_unicos": 44,
+        "score": 44.0,
+        "cidade": "Itapira"
+      },
+      {
+        "lat": -19.852705001831055,
+        "lon": -43.95250701904297,
+        "clientes_potenciais": 1142,
+        "clientes_unicos": 40,
+        "score": 40.0,
+        "cidade": "Belo Horizonte"
+      },
+      {
+        "lat": -19.775222778320312,
+        "lon": -44.1292839050293,
+        "clientes_potenciais": 46,
+        "clientes_unicos": 38,
+        "score": 38.0,
+        "cidade": "Ribeirão das Neves"
+      },
+      {
+        "lat": -20.419151306152344,
+        "lon": -49.97234344482422,
+        "clientes_potenciais": 38,
+        "clientes_unicos": 38,
+        "score": 38.0,
+        "cidade": "Votuporanga"
+      },
+      {
+        "lat": -23.348621368408203,
+        "lon": -47.85059356689453,
+        "clientes_potenciais": 36,
+        "clientes_unicos": 36,
+        "score": 36.0,
+        "cidade": "Tatuí"
+      },
+      {
+        "lat": -17.885555267333984,
+        "lon": -51.72663497924805,
+        "clientes_potenciais": 36,
+        "clientes_unicos": 36,
+        "score": 36.0,
+        "cidade": "Jataí"
+      },
+      {
+        "lat": -22.944276809692383,
+        "lon": -47.01048278808594,
+        "clientes_potenciais": 353,
+        "clientes_unicos": 35,
+        "score": 35.0,
+        "cidade": "Valinhos"
+      },
+      {
+        "lat": -23.556461334228516,
+        "lon": -51.46025466918945,
+        "clientes_potenciais": 35,
+        "clientes_unicos": 35,
+        "score": 35.0,
+        "cidade": "Apucarana"
+      },
+      {
+        "lat": -23.337127685546875,
+        "lon": -46.8349494934082,
+        "clientes_potenciais": 40,
+        "clientes_unicos": 33,
+        "score": 33.0,
+        "cidade": "Cajamar"
+      },
+      {
+        "lat": -22.073997497558594,
+        "lon": -46.57704162597656,
+        "clientes_potenciais": 30,
+        "clientes_unicos": 30,
+        "score": 30.0,
+        "cidade": "Andradas"
+      },
+      {
+        "lat": -27.444576263427734,
+        "lon": -48.42906188964844,
+        "clientes_potenciais": 30,
+        "clientes_unicos": 30,
+        "score": 30.0,
+        "cidade": "Florianópolis"
+      },
+      {
+        "lat": -24.04121208190918,
+        "lon": -52.37555694580078,
+        "clientes_potenciais": 30,
+        "clientes_unicos": 30,
+        "score": 30.0,
+        "cidade": "Campo Mourão"
+      },
+      {
+        "lat": -21.214061737060547,
+        "lon": -47.80449295043945,
+        "clientes_potenciais": 407,
+        "clientes_unicos": 29,
+        "score": 29.0,
+        "cidade": "Ribeirão Preto"
+      },
+      {
+        "lat": -21.13409423828125,
+        "lon": -42.37295913696289,
+        "clientes_potenciais": 27,
+        "clientes_unicos": 27,
+        "score": 27.0,
+        "cidade": "Muriaé"
+      },
+      {
+        "lat": -20.79806900024414,
+        "lon": -49.345191955566406,
+        "clientes_potenciais": 374,
+        "clientes_unicos": 27,
+        "score": 27.0,
+        "cidade": "São José do Rio Preto"
+      },
+      {
+        "lat": -22.85474967956543,
+        "lon": -46.32108688354492,
+        "clientes_potenciais": 26,
+        "clientes_unicos": 26,
+        "score": 26.0,
+        "cidade": "Extrema"
+      },
+      {
+        "lat": -19.77822494506836,
+        "lon": -42.13842010498047,
+        "clientes_potenciais": 26,
+        "clientes_unicos": 26,
+        "score": 26.0,
+        "cidade": "Caratinga"
+      },
+      {
+        "lat": -29.227066040039062,
+        "lon": -51.34218978881836,
+        "clientes_potenciais": 27,
+        "clientes_unicos": 26,
+        "score": 26.0,
+        "cidade": "Farroupilha"
+      },
+      {
+        "lat": -21.85346794128418,
+        "lon": -47.474769592285156,
+        "clientes_potenciais": 25,
+        "clientes_unicos": 25,
+        "score": 25.0,
+        "cidade": "Porto Ferreira"
+      },
+      {
+        "lat": -22.643936157226562,
+        "lon": -47.190101623535156,
+        "clientes_potenciais": 25,
+        "clientes_unicos": 25,
+        "score": 25.0,
+        "cidade": "Cosmópolis"
+      },
+      {
+        "lat": -23.83843994140625,
+        "lon": -46.80451202392578,
+        "clientes_potenciais": 25,
+        "clientes_unicos": 25,
+        "score": 25.0,
+        "cidade": "Embu-Guaçu"
+      },
+      {
+        "lat": -19.45575714111328,
+        "lon": -44.24060821533203,
+        "clientes_potenciais": 25,
+        "clientes_unicos": 25,
+        "score": 25.0,
+        "cidade": "Sete Lagoas"
+      },
+      {
+        "lat": -20.08112335205078,
+        "lon": -44.580848693847656,
+        "clientes_potenciais": 25,
+        "clientes_unicos": 25,
+        "score": 25.0,
+        "cidade": "Itaúna"
+      },
+      {
+        "lat": -15.965142250061035,
+        "lon": -47.823814392089844,
+        "clientes_potenciais": 24,
+        "clientes_unicos": 24,
+        "score": 24.0,
+        "cidade": "Santa Maria"
+      },
+      {
+        "lat": -23.40831756591797,
+        "lon": -46.863460540771484,
+        "clientes_potenciais": 70,
+        "clientes_unicos": 24,
+        "score": 24.0,
+        "cidade": "Cajamar"
+      },
+      {
+        "lat": -26.267789840698242,
+        "lon": -48.84506607055664,
+        "clientes_potenciais": 546,
+        "clientes_unicos": 24,
+        "score": 24.0,
+        "cidade": "Joinville"
+      },
+      {
+        "lat": -20.40921974182129,
+        "lon": -42.89688491821289,
+        "clientes_potenciais": 24,
+        "clientes_unicos": 24,
+        "score": 24.0,
+        "cidade": "Ponte Nova"
+      },
+      {
+        "lat": -19.380126953125,
+        "lon": -40.06150436401367,
+        "clientes_potenciais": 24,
+        "clientes_unicos": 24,
+        "score": 24.0,
+        "cidade": "Linhares"
+      },
+      {
+        "lat": -20.73605728149414,
+        "lon": -48.90916061401367,
+        "clientes_potenciais": 24,
+        "clientes_unicos": 24,
+        "score": 24.0,
+        "cidade": "Olímpia"
+      },
+      {
+        "lat": -24.049144744873047,
+        "lon": -46.53550720214844,
+        "clientes_potenciais": 35,
+        "clientes_unicos": 23,
+        "score": 23.0,
+        "cidade": "Praia Grande"
+      },
+      {
+        "lat": -25.456743240356445,
+        "lon": -49.5386962890625,
+        "clientes_potenciais": 23,
+        "clientes_unicos": 23,
+        "score": 23.0,
+        "cidade": "Campo Largo"
+      },
+      {
+        "lat": -23.73661231994629,
+        "lon": -46.873165130615234,
+        "clientes_potenciais": 42,
+        "clientes_unicos": 22,
+        "score": 22.0,
+        "cidade": "Itapecerica da Serra"
+      },
+      {
+        "lat": -23.407608032226562,
+        "lon": -51.43909454345703,
+        "clientes_potenciais": 22,
+        "clientes_unicos": 22,
+        "score": 22.0,
+        "cidade": "Arapongas"
+      },
+      {
+        "lat": -15.65560245513916,
+        "lon": -47.8211669921875,
+        "clientes_potenciais": 64,
+        "clientes_unicos": 21,
+        "score": 21.0,
+        "cidade": "Sobradinho"
+      },
+      {
+        "lat": -22.56877326965332,
+        "lon": -47.164188385009766,
+        "clientes_potenciais": 21,
+        "clientes_unicos": 21,
+        "score": 21.0,
+        "cidade": "Artur Nogueira"
+      },
+      {
+        "lat": -25.473724365234375,
+        "lon": -49.10551834106445,
+        "clientes_potenciais": 108,
+        "clientes_unicos": 21,
+        "score": 21.0,
+        "cidade": "Piraquara"
+      },
+      {
+        "lat": -26.90897560119629,
+        "lon": -49.030174255371094,
+        "clientes_potenciais": 210,
+        "clientes_unicos": 21,
+        "score": 21.0,
+        "cidade": "Blumenau"
+      },
+      {
+        "lat": -21.119770050048828,
+        "lon": -42.93873977661133,
+        "clientes_potenciais": 21,
+        "clientes_unicos": 21,
+        "score": 21.0,
+        "cidade": "Ubá"
+      },
+      {
+        "lat": -18.414670944213867,
+        "lon": -49.219085693359375,
+        "clientes_potenciais": 21,
+        "clientes_unicos": 21,
+        "score": 21.0,
+        "cidade": "Itumbiara"
+      },
+      {
+        "lat": -18.945676803588867,
+        "lon": -46.99457931518555,
+        "clientes_potenciais": 21,
+        "clientes_unicos": 21,
+        "score": 21.0,
+        "cidade": "Patrocínio"
+      },
+      {
+        "lat": -21.97374725341797,
+        "lon": -46.790279388427734,
+        "clientes_potenciais": 20,
+        "clientes_unicos": 20,
+        "score": 20.0,
+        "cidade": "São João da Boa Vista"
+      },
+      {
+        "lat": -23.32114601135254,
+        "lon": -46.5877799987793,
+        "clientes_potenciais": 20,
+        "clientes_unicos": 20,
+        "score": 20.0,
+        "cidade": "Mairiporã"
+      },
+      {
+        "lat": -26.863834381103516,
+        "lon": -49.25776672363281,
+        "clientes_potenciais": 29,
+        "clientes_unicos": 20,
+        "score": 20.0,
+        "cidade": "Timbó"
+      },
+      {
+        "lat": -18.977493286132812,
+        "lon": -49.45655059814453,
+        "clientes_potenciais": 20,
+        "clientes_unicos": 20,
+        "score": 20.0,
+        "cidade": "Ituiutaba"
+      },
+      {
+        "lat": -23.986370086669922,
+        "lon": -48.87930679321289,
+        "clientes_potenciais": 19,
+        "clientes_unicos": 19,
+        "score": 19.0,
+        "cidade": "Itapeva"
+      },
+      {
+        "lat": -19.892433166503906,
+        "lon": -43.8067741394043,
+        "clientes_potenciais": 66,
+        "clientes_unicos": 19,
+        "score": 19.0,
+        "cidade": "Sabará"
+      },
+      {
+        "lat": -8.762446403503418,
+        "lon": -63.877464294433594,
+        "clientes_potenciais": 19,
+        "clientes_unicos": 19,
+        "score": 19.0,
+        "cidade": "Porto Velho"
+      },
+      {
+        "lat": -20.816696166992188,
+        "lon": -49.50844192504883,
+        "clientes_potenciais": 96,
+        "clientes_unicos": 19,
+        "score": 19.0,
+        "cidade": "Mirassol"
+      },
+      {
+        "lat": -12.706777572631836,
+        "lon": -38.32585525512695,
+        "clientes_potenciais": 18,
+        "clientes_unicos": 18,
+        "score": 18.0,
+        "cidade": "Camaçari"
+      },
+      {
+        "lat": -29.391868591308594,
+        "lon": -50.877952575683594,
+        "clientes_potenciais": 18,
+        "clientes_unicos": 18,
+        "score": 18.0,
+        "cidade": "Gramado"
+      },
+      {
+        "lat": -29.675729751586914,
+        "lon": -51.448883056640625,
+        "clientes_potenciais": 18,
+        "clientes_unicos": 18,
+        "score": 18.0,
+        "cidade": "Montenegro"
+      },
+      {
+        "lat": -23.09796905517578,
+        "lon": -45.70401382446289,
+        "clientes_potenciais": 16,
+        "clientes_unicos": 16,
+        "score": 16.0,
+        "cidade": "Caçapava"
+      },
+      {
+        "lat": -23.532522201538086,
+        "lon": -49.24262619018555,
+        "clientes_potenciais": 16,
+        "clientes_unicos": 16,
+        "score": 16.0,
+        "cidade": "Taquarituba"
+      },
+      {
+        "lat": -25.328500747680664,
+        "lon": -49.24484634399414,
+        "clientes_potenciais": 213,
+        "clientes_unicos": 16,
+        "score": 16.0,
+        "cidade": "Almirante Tamandaré"
+      },
+      {
+        "lat": -29.355098724365234,
+        "lon": -50.81134796142578,
+        "clientes_potenciais": 16,
+        "clientes_unicos": 16,
+        "score": 16.0,
+        "cidade": "Canela"
+      },
+      {
+        "lat": -20.939363479614258,
+        "lon": -48.48472595214844,
+        "clientes_potenciais": 16,
+        "clientes_unicos": 16,
+        "score": 16.0,
+        "cidade": "Bebedouro"
+      },
+      {
+        "lat": -21.471162796020508,
+        "lon": -47.00550842285156,
+        "clientes_potenciais": 16,
+        "clientes_unicos": 16,
+        "score": 16.0,
+        "cidade": "Mococa"
+      },
+      {
+        "lat": -22.994049072265625,
+        "lon": -47.506935119628906,
+        "clientes_potenciais": 15,
+        "clientes_unicos": 15,
+        "score": 15.0,
+        "cidade": "Capivari"
+      },
+      {
+        "lat": -26.191020965576172,
+        "lon": -48.919673919677734,
+        "clientes_potenciais": 60,
+        "clientes_unicos": 15,
+        "score": 15.0,
+        "cidade": "Joinville"
+      },
+      {
+        "lat": -19.824575424194336,
+        "lon": -40.27367401123047,
+        "clientes_potenciais": 15,
+        "clientes_unicos": 15,
+        "score": 15.0,
+        "cidade": "Aracruz"
+      },
+      {
+        "lat": -20.273313522338867,
+        "lon": -50.54496383666992,
+        "clientes_potenciais": 15,
+        "clientes_unicos": 15,
+        "score": 15.0,
+        "cidade": "Jales"
+      },
+      {
+        "lat": -17.22721290588379,
+        "lon": -46.87128448486328,
+        "clientes_potenciais": 14,
+        "clientes_unicos": 14,
+        "score": 14.0,
+        "cidade": "Paracatu"
+      },
+      {
+        "lat": -22.491899490356445,
+        "lon": -47.1918830871582,
+        "clientes_potenciais": 14,
+        "clientes_unicos": 14,
+        "score": 14.0,
+        "cidade": "Engenheiro Coelho"
+      },
+      {
+        "lat": -18.176584243774414,
+        "lon": -47.950782775878906,
+        "clientes_potenciais": 14,
+        "clientes_unicos": 14,
+        "score": 14.0,
+        "cidade": "Catalão"
+      },
+      {
+        "lat": -22.002635955810547,
+        "lon": -47.42586135864258,
+        "clientes_potenciais": 13,
+        "clientes_unicos": 13,
+        "score": 13.0,
+        "cidade": "Pirassununga"
+      },
+      {
+        "lat": -27.692392349243164,
+        "lon": -48.502872467041016,
+        "clientes_potenciais": 22,
+        "clientes_unicos": 13,
+        "score": 13.0,
+        "cidade": "Florianópolis"
+      },
+      {
+        "lat": -21.220998764038086,
+        "lon": -43.77289962768555,
+        "clientes_potenciais": 13,
+        "clientes_unicos": 13,
+        "score": 13.0,
+        "cidade": "Barbacena"
+      },
+      {
+        "lat": -7.198112487792969,
+        "lon": -48.20970916748047,
+        "clientes_potenciais": 13,
+        "clientes_unicos": 13,
+        "score": 13.0,
+        "cidade": "Araguaína"
+      },
+      {
+        "lat": -18.71875762939453,
+        "lon": -39.858787536621094,
+        "clientes_potenciais": 13,
+        "clientes_unicos": 13,
+        "score": 13.0,
+        "cidade": "São Mateus"
+      },
+      {
+        "lat": -22.947736740112305,
+        "lon": -47.30891036987305,
+        "clientes_potenciais": 20,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Monte Mor"
+      },
+      {
+        "lat": -26.1149845123291,
+        "lon": -49.80322265625,
+        "clientes_potenciais": 12,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Mafra"
+      },
+      {
+        "lat": -26.90573501586914,
+        "lon": -48.671566009521484,
+        "clientes_potenciais": 207,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Itajaí"
+      },
+      {
+        "lat": -20.178068161010742,
+        "lon": -43.96055221557617,
+        "clientes_potenciais": 14,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Nova Lima"
+      },
+      {
+        "lat": -12.546246528625488,
+        "lon": -55.729644775390625,
+        "clientes_potenciais": 12,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Sorriso"
+      },
+      {
+        "lat": -21.23979377746582,
+        "lon": -44.998958587646484,
+        "clientes_potenciais": 12,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Lavras"
+      },
+      {
+        "lat": -22.248634338378906,
+        "lon": -45.70708084106445,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Santa Rita do Sapucaí"
+      },
+      {
+        "lat": -23.098770141601562,
+        "lon": -47.71075439453125,
+        "clientes_potenciais": 37,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Tietê"
+      },
+      {
+        "lat": -19.62014389038086,
+        "lon": -44.018531799316406,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Pedro Leopoldo"
+      },
+      {
+        "lat": -20.75115203857422,
+        "lon": -42.87733840942383,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Viçosa"
+      },
+      {
+        "lat": -23.331401824951172,
+        "lon": -51.17138671875,
+        "clientes_potenciais": 227,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Londrina"
+      },
+      {
+        "lat": -24.331022262573242,
+        "lon": -50.62102127075195,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Telêmaco Borba"
+      },
+      {
+        "lat": -24.552326202392578,
+        "lon": -54.05879211425781,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Marechal Cândido Rondon"
+      },
+      {
+        "lat": -23.419326782226562,
+        "lon": -46.429718017578125,
+        "clientes_potenciais": 160,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Guarulhos"
+      },
+      {
+        "lat": -26.179349899291992,
+        "lon": -50.38862228393555,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Canoinhas"
+      },
+      {
+        "lat": -26.232574462890625,
+        "lon": -49.39582824707031,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "São Bento do Sul"
+      },
+      {
+        "lat": -26.832658767700195,
+        "lon": -48.631629943847656,
+        "clientes_potenciais": 101,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Navegantes"
+      },
+      {
+        "lat": -27.140289306640625,
+        "lon": -48.927242279052734,
+        "clientes_potenciais": 97,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Brusque"
+      },
+      {
+        "lat": -8.028419494628906,
+        "lon": -50.03174591064453,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Redenção"
+      },
+      {
+        "lat": -28.50547218322754,
+        "lon": -50.938419342041016,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Vacaria"
+      },
+      {
+        "lat": -32.03495788574219,
+        "lon": -52.099185943603516,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Rio Grande"
+      },
+      {
+        "lat": -20.022907257080078,
+        "lon": -45.5400276184082,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Lagoa da Prata"
+      },
+      {
+        "lat": -22.62811851501465,
+        "lon": -47.05439376831055,
+        "clientes_potenciais": 35,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Holambra"
+      },
+      {
+        "lat": -24.006072998046875,
+        "lon": -48.34865951538086,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Capão Bonito"
+      },
+      {
+        "lat": -18.768192291259766,
+        "lon": -44.43754577636719,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Curvelo"
+      },
+      {
+        "lat": -20.393054962158203,
+        "lon": -43.50351333618164,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Ouro Preto"
+      },
+      {
+        "lat": -22.525287628173828,
+        "lon": -55.72102737426758,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Ponta Porã"
+      },
+      {
+        "lat": -16.747652053833008,
+        "lon": -49.23879623413086,
+        "clientes_potenciais": 309,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Aparecida de Goiânia"
+      },
+      {
+        "lat": -18.644758224487305,
+        "lon": -48.191585540771484,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Araguari"
+      },
+      {
+        "lat": -25.290285110473633,
+        "lon": -54.09107971191406,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Medianeira"
+      },
+      {
+        "lat": -27.008777618408203,
+        "lon": -51.14136505126953,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Videira"
+      },
+      {
+        "lat": -29.906633377075195,
+        "lon": -51.16240692138672,
+        "clientes_potenciais": 115,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Canoas"
+      },
+      {
+        "lat": -17.869335174560547,
+        "lon": -41.504608154296875,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Teófilo Otoni"
+      },
+      {
+        "lat": -18.74606704711914,
+        "lon": -39.75923538208008,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "São Mateus"
+      },
+      {
+        "lat": -22.515933990478516,
+        "lon": -41.93882751464844,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Rio das Ostras"
+      },
+      {
+        "lat": -22.327301025390625,
+        "lon": -47.164100646972656,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Conchal"
+      },
+      {
+        "lat": -22.426387786865234,
+        "lon": -45.45383834838867,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Itajubá"
+      },
+      {
+        "lat": -12.895514488220215,
+        "lon": -38.41805648803711,
+        "clientes_potenciais": 252,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Salvador"
+      },
+      {
+        "lat": -24.791698455810547,
+        "lon": -50.0054931640625,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Castro"
+      },
+      {
+        "lat": -26.25581169128418,
+        "lon": -49.51821517944336,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Rio Negrinho"
+      },
+      {
+        "lat": -20.144412994384766,
+        "lon": -44.20444869995117,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Brumadinho"
+      },
+      {
+        "lat": -21.133710861206055,
+        "lon": -44.252872467041016,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "São João del-Rei"
+      },
+      {
+        "lat": -23.41440200805664,
+        "lon": -51.92176055908203,
+        "clientes_potenciais": 338,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Maringá"
+      },
+      {
+        "lat": -23.767576217651367,
+        "lon": -53.3130989074707,
+        "clientes_potenciais": 130,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Umuarama"
+      },
+      {
+        "lat": -7.999292850494385,
+        "lon": -35.023136138916016,
+        "clientes_potenciais": 32,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "São Lourenço da Mata"
+      },
+      {
+        "lat": -8.290911674499512,
+        "lon": -35.03090286254883,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Cabo de Santo Agostinho"
+      },
+      {
+        "lat": -16.356834411621094,
+        "lon": -49.499332427978516,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Inhumas"
+      },
+      {
+        "lat": -16.696508407592773,
+        "lon": -49.387596130371094,
+        "clientes_potenciais": 111,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Goiânia"
+      },
+      {
+        "lat": -26.484472274780273,
+        "lon": -51.991878509521484,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Palmas"
+      },
+      {
+        "lat": -26.779399871826172,
+        "lon": -51.017818450927734,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Caçador"
+      },
+      {
+        "lat": -21.20273208618164,
+        "lon": -49.29386901855469,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Urupês"
+      },
+      {
+        "lat": -22.97606658935547,
+        "lon": -49.88060760498047,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Ourinhos"
+      },
+      {
+        "lat": -22.871082305908203,
+        "lon": -42.33392333984375,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Araruama"
+      },
+      {
+        "lat": -21.371042251586914,
+        "lon": -45.51680374145508,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Três Pontas"
+      },
+      {
+        "lat": -17.56032371520996,
+        "lon": -52.55218505859375,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Mineiros"
+      },
+      {
+        "lat": -15.672256469726562,
+        "lon": -48.199058532714844,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Brazlândia"
+      },
+      {
+        "lat": -11.30846118927002,
+        "lon": -41.85221481323242,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Irecê"
+      },
+      {
+        "lat": -12.849230766296387,
+        "lon": -38.28068923950195,
+        "clientes_potenciais": 68,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Camaçari"
+      },
+      {
+        "lat": -20.256071090698242,
+        "lon": -43.80574035644531,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Itabirito"
+      },
+      {
+        "lat": -20.522523880004883,
+        "lon": -43.69730758666992,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Ouro Branco"
+      },
+      {
+        "lat": -17.74477767944336,
+        "lon": -48.62893295288086,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Caldas Novas"
+      },
+      {
+        "lat": -20.796171188354492,
+        "lon": -51.69643783569336,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Três Lagoas"
+      },
+      {
+        "lat": -21.08345603942871,
+        "lon": -48.80099868774414,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Palmares Paulista"
+      },
+      {
+        "lat": -21.095043182373047,
+        "lon": -48.66358947753906,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Pirangi"
+      },
+      {
+        "lat": -21.670196533203125,
+        "lon": -49.74875259399414,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Lins"
+      },
+      {
+        "lat": -3.212245464324951,
+        "lon": -52.21599197387695,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Altamira"
+      },
+      {
+        "lat": -3.9055562019348145,
+        "lon": -38.451324462890625,
+        "clientes_potenciais": 27,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Eusébio"
+      },
+      {
+        "lat": -15.825214385986328,
+        "lon": -47.95574188232422,
+        "clientes_potenciais": 464,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Guará"
+      },
+      {
+        "lat": -22.473352432250977,
+        "lon": -47.4615364074707,
+        "clientes_potenciais": 35,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Cordeirópolis"
+      },
+      {
+        "lat": -23.384260177612305,
+        "lon": -48.72625732421875,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Paranapanema"
+      },
+      {
+        "lat": -23.485172271728516,
+        "lon": -46.719390869140625,
+        "clientes_potenciais": 503,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "São Paulo"
+      },
+      {
+        "lat": -23.6591796875,
+        "lon": -46.29639434814453,
+        "clientes_potenciais": 17,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Suzano"
+      },
+      {
+        "lat": -25.44816780090332,
+        "lon": -49.3077278137207,
+        "clientes_potenciais": 605,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Curitiba"
+      },
+      {
+        "lat": -19.7708740234375,
+        "lon": -44.31357955932617,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Esmeraldas"
+      },
+      {
+        "lat": -23.352872848510742,
+        "lon": -52.08739471435547,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Mandaguaçu"
+      },
+      {
+        "lat": -16.658058166503906,
+        "lon": -49.499427795410156,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Trindade"
+      },
+      {
+        "lat": -18.93258285522461,
+        "lon": -48.260292053222656,
+        "clientes_potenciais": 261,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Uberlândia"
+      },
+      {
+        "lat": -28.648906707763672,
+        "lon": -53.61943435668945,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Cruz Alta"
+      },
+      {
+        "lat": -30.07286262512207,
+        "lon": -51.07097244262695,
+        "clientes_potenciais": 93,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Viamão"
+      },
+      {
+        "lat": -20.784894943237305,
+        "lon": -49.81517791748047,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Poloni"
+      },
+      {
+        "lat": -20.844871520996094,
+        "lon": -49.63347244262695,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Neves Paulista"
+      },
+      {
+        "lat": -21.08137321472168,
+        "lon": -49.239959716796875,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Ibirá"
+      },
+      {
+        "lat": -21.26736831665039,
+        "lon": -48.31831741333008,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Jaboticabal"
+      },
+      {
+        "lat": -21.361974716186523,
+        "lon": -48.2275390625,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Guariba"
+      },
+      {
+        "lat": -22.60064697265625,
+        "lon": -48.79246139526367,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Lençóis Paulista"
+      },
+      {
+        "lat": -22.894540786743164,
+        "lon": -49.62282180786133,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Santa Cruz do Rio Pardo"
+      },
+      {
+        "lat": -21.391576766967773,
+        "lon": -42.69367599487305,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Cataguases"
+      },
+      {
+        "lat": -19.74308967590332,
+        "lon": -45.2587890625,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Bom Despacho"
+      },
+      {
+        "lat": -3.7367491722106934,
+        "lon": -38.48898696899414,
+        "clientes_potenciais": 149,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Fortaleza"
+      },
+      {
+        "lat": -12.137030601501465,
+        "lon": -38.428802490234375,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Alagoinhas"
+      },
+      {
+        "lat": -14.798555374145508,
+        "lon": -39.275272369384766,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Itabuna"
+      },
+      {
+        "lat": -17.348827362060547,
+        "lon": -44.93939971923828,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Pirapora"
+      },
+      {
+        "lat": -20.065208435058594,
+        "lon": -44.29542541503906,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Igarapé"
+      },
+      {
+        "lat": -23.30811882019043,
+        "lon": -51.36814498901367,
+        "clientes_potenciais": 12,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Rolândia"
+      },
+      {
+        "lat": -7.8492231369018555,
+        "lon": -35.259178161621094,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Carpina"
+      },
+      {
+        "lat": -7.990602016448975,
+        "lon": -38.291954040527344,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Serra Talhada"
+      },
+      {
+        "lat": -8.183215141296387,
+        "lon": -34.919654846191406,
+        "clientes_potenciais": 102,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Jaboatão dos Guararapes"
+      },
+      {
+        "lat": -8.27414321899414,
+        "lon": -35.96502685546875,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Caruaru"
+      },
+      {
+        "lat": -28.3010196685791,
+        "lon": -54.26776123046875,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Santo Ângelo"
+      },
+      {
+        "lat": -30.158349990844727,
+        "lon": -51.19611740112305,
+        "clientes_potenciais": 73,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Porto Alegre"
+      },
+      {
+        "lat": -31.319072723388672,
+        "lon": -54.107826232910156,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Bagé"
+      },
+      {
+        "lat": -17.534025192260742,
+        "lon": -39.74830627441406,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Teixeira de Freitas"
+      },
+      {
+        "lat": -20.081005096435547,
+        "lon": -49.91436767578125,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Cardoso"
+      },
+      {
+        "lat": -21.275714874267578,
+        "lon": -50.33065414428711,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Birigui"
+      },
+      {
+        "lat": -22.49477767944336,
+        "lon": -48.55126190185547,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Barra Bonita"
+      },
+      {
+        "lat": -21.5317440032959,
+        "lon": -42.64293670654297,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Leopoldina"
+      },
+      {
+        "lat": -23.636371612548828,
+        "lon": -46.60248947143555,
+        "clientes_potenciais": 1095,
+        "clientes_unicos": 3,
+        "score": 3.0,
+        "cidade": "São Paulo"
+      },
+      {
+        "lat": -24.948312759399414,
+        "lon": -53.46733856201172,
+        "clientes_potenciais": 434,
+        "clientes_unicos": 2,
+        "score": 2.0,
+        "cidade": "Cascavel"
+      }
+    ],
+    "total_beneficiados": 13344,
+    "clientes_unicos_totais": 3357
+  },
+  "15": {
+    "sugestoes": [
+      {
+        "lat": -26.079574584960938,
+        "lon": -53.04838943481445,
+        "clientes_potenciais": 85,
+        "clientes_unicos": 85,
+        "score": 85.0,
+        "cidade": "Francisco Beltrão"
+      },
+      {
+        "lat": -19.633852005004883,
+        "lon": -43.93423080444336,
+        "clientes_potenciais": 93,
+        "clientes_unicos": 71,
+        "score": 71.0,
+        "cidade": "Lagoa Santa"
+      },
+      {
+        "lat": -20.181249618530273,
+        "lon": -40.234336853027344,
+        "clientes_potenciais": 161,
+        "clientes_unicos": 71,
+        "score": 71.0,
+        "cidade": "Serra"
+      },
+      {
+        "lat": -20.724050521850586,
+        "lon": -46.608245849609375,
+        "clientes_potenciais": 68,
+        "clientes_unicos": 68,
+        "score": 68.0,
+        "cidade": "Passos"
+      },
+      {
+        "lat": -21.777708053588867,
+        "lon": -48.16691589355469,
+        "clientes_potenciais": 56,
+        "clientes_unicos": 56,
+        "score": 56.0,
+        "cidade": "Araraquara"
+      },
+      {
+        "lat": -20.256324768066406,
+        "lon": -42.03179931640625,
+        "clientes_potenciais": 52,
+        "clientes_unicos": 52,
+        "score": 52.0,
+        "cidade": "Manhuaçu"
+      },
+      {
+        "lat": -15.819470405578613,
+        "lon": -47.81669616699219,
+        "clientes_potenciais": 348,
+        "clientes_unicos": 51,
+        "score": 51.0,
+        "cidade": "Lago Sul"
+      },
+      {
+        "lat": -25.38927459716797,
+        "lon": -51.4697265625,
+        "clientes_potenciais": 49,
+        "clientes_unicos": 49,
+        "score": 49.0,
+        "cidade": "Guarapuava"
+      },
+      {
+        "lat": -16.028568267822266,
+        "lon": -48.035240173339844,
+        "clientes_potenciais": 96,
+        "clientes_unicos": 49,
+        "score": 49.0,
+        "cidade": "Santa Maria"
+      },
+      {
+        "lat": -21.425310134887695,
+        "lon": -45.95099639892578,
+        "clientes_potenciais": 49,
+        "clientes_unicos": 49,
+        "score": 49.0,
+        "cidade": "Alfenas"
+      },
+      {
+        "lat": -20.419151306152344,
+        "lon": -49.97234344482422,
+        "clientes_potenciais": 39,
+        "clientes_unicos": 39,
+        "score": 39.0,
+        "cidade": "Votuporanga"
+      },
+      {
+        "lat": -23.348621368408203,
+        "lon": -47.85059356689453,
+        "clientes_potenciais": 38,
+        "clientes_unicos": 36,
+        "score": 36.0,
+        "cidade": "Tatuí"
+      },
+      {
+        "lat": -17.885555267333984,
+        "lon": -51.72663497924805,
+        "clientes_potenciais": 36,
+        "clientes_unicos": 36,
+        "score": 36.0,
+        "cidade": "Jataí"
+      },
+      {
+        "lat": -23.556461334228516,
+        "lon": -51.46025466918945,
+        "clientes_potenciais": 36,
+        "clientes_unicos": 36,
+        "score": 36.0,
+        "cidade": "Apucarana"
+      },
+      {
+        "lat": -25.61496925354004,
+        "lon": -49.34099197387695,
+        "clientes_potenciais": 224,
+        "clientes_unicos": 34,
+        "score": 34.0,
+        "cidade": "Curitiba"
+      },
+      {
+        "lat": -23.00035858154297,
+        "lon": -43.41804504394531,
+        "clientes_potenciais": 162,
+        "clientes_unicos": 32,
+        "score": 32.0,
+        "cidade": "Rio de Janeiro"
+      },
+      {
+        "lat": -22.073997497558594,
+        "lon": -46.57704162597656,
+        "clientes_potenciais": 31,
+        "clientes_unicos": 31,
+        "score": 31.0,
+        "cidade": "Andradas"
+      },
+      {
+        "lat": -24.04121208190918,
+        "lon": -52.37555694580078,
+        "clientes_potenciais": 31,
+        "clientes_unicos": 31,
+        "score": 31.0,
+        "cidade": "Campo Mourão"
+      },
+      {
+        "lat": -27.442590713500977,
+        "lon": -48.427825927734375,
+        "clientes_potenciais": 33,
+        "clientes_unicos": 30,
+        "score": 30.0,
+        "cidade": "Florianópolis"
+      },
+      {
+        "lat": -22.85474967956543,
+        "lon": -46.32108688354492,
+        "clientes_potenciais": 27,
+        "clientes_unicos": 27,
+        "score": 27.0,
+        "cidade": "Extrema"
+      },
+      {
+        "lat": -23.407608032226562,
+        "lon": -51.43909454345703,
+        "clientes_potenciais": 28,
+        "clientes_unicos": 27,
+        "score": 27.0,
+        "cidade": "Arapongas"
+      },
+      {
+        "lat": -21.13409423828125,
+        "lon": -42.37295913696289,
+        "clientes_potenciais": 27,
+        "clientes_unicos": 27,
+        "score": 27.0,
+        "cidade": "Muriaé"
+      },
+      {
+        "lat": -19.7777042388916,
+        "lon": -42.13669204711914,
+        "clientes_potenciais": 26,
+        "clientes_unicos": 26,
+        "score": 26.0,
+        "cidade": "Caratinga"
+      },
+      {
+        "lat": -19.45575714111328,
+        "lon": -44.24060821533203,
+        "clientes_potenciais": 25,
+        "clientes_unicos": 25,
+        "score": 25.0,
+        "cidade": "Sete Lagoas"
+      },
+      {
+        "lat": -20.08112335205078,
+        "lon": -44.580848693847656,
+        "clientes_potenciais": 25,
+        "clientes_unicos": 25,
+        "score": 25.0,
+        "cidade": "Itaúna"
+      },
+      {
+        "lat": -23.17714500427246,
+        "lon": -46.94639587402344,
+        "clientes_potenciais": 483,
+        "clientes_unicos": 25,
+        "score": 25.0,
+        "cidade": "Jundiaí"
+      },
+      {
+        "lat": -20.73605728149414,
+        "lon": -48.90916061401367,
+        "clientes_potenciais": 25,
+        "clientes_unicos": 25,
+        "score": 25.0,
+        "cidade": "Olímpia"
+      },
+      {
+        "lat": -20.405223846435547,
+        "lon": -42.895355224609375,
+        "clientes_potenciais": 24,
+        "clientes_unicos": 24,
+        "score": 24.0,
+        "cidade": "Ponte Nova"
+      },
+      {
+        "lat": -23.808156967163086,
+        "lon": -46.7492561340332,
+        "clientes_potenciais": 174,
+        "clientes_unicos": 24,
+        "score": 24.0,
+        "cidade": "São Paulo"
+      },
+      {
+        "lat": -19.380126953125,
+        "lon": -40.06150436401367,
+        "clientes_potenciais": 24,
+        "clientes_unicos": 24,
+        "score": 24.0,
+        "cidade": "Linhares"
+      },
+      {
+        "lat": -25.45590591430664,
+        "lon": -49.53273391723633,
+        "clientes_potenciais": 25,
+        "clientes_unicos": 23,
+        "score": 23.0,
+        "cidade": "Campo Largo"
+      },
+      {
+        "lat": -19.757884979248047,
+        "lon": -44.148948669433594,
+        "clientes_potenciais": 67,
+        "clientes_unicos": 21,
+        "score": 21.0,
+        "cidade": "Ribeirão das Neves"
+      },
+      {
+        "lat": -21.858356475830078,
+        "lon": -47.475059509277344,
+        "clientes_potenciais": 27,
+        "clientes_unicos": 21,
+        "score": 21.0,
+        "cidade": "Porto Ferreira"
+      },
+      {
+        "lat": -21.119770050048828,
+        "lon": -42.93873977661133,
+        "clientes_potenciais": 21,
+        "clientes_unicos": 21,
+        "score": 21.0,
+        "cidade": "Ubá"
+      },
+      {
+        "lat": -18.414670944213867,
+        "lon": -49.219085693359375,
+        "clientes_potenciais": 21,
+        "clientes_unicos": 21,
+        "score": 21.0,
+        "cidade": "Itumbiara"
+      },
+      {
+        "lat": -18.945676803588867,
+        "lon": -46.99457931518555,
+        "clientes_potenciais": 21,
+        "clientes_unicos": 21,
+        "score": 21.0,
+        "cidade": "Patrocínio"
+      },
+      {
+        "lat": -21.97374725341797,
+        "lon": -46.790279388427734,
+        "clientes_potenciais": 20,
+        "clientes_unicos": 20,
+        "score": 20.0,
+        "cidade": "São João da Boa Vista"
+      },
+      {
+        "lat": -18.977493286132812,
+        "lon": -49.45655059814453,
+        "clientes_potenciais": 20,
+        "clientes_unicos": 20,
+        "score": 20.0,
+        "cidade": "Ituiutaba"
+      },
+      {
+        "lat": -23.986370086669922,
+        "lon": -48.87930679321289,
+        "clientes_potenciais": 19,
+        "clientes_unicos": 19,
+        "score": 19.0,
+        "cidade": "Itapeva"
+      },
+      {
+        "lat": -8.762446403503418,
+        "lon": -63.877464294433594,
+        "clientes_potenciais": 19,
+        "clientes_unicos": 19,
+        "score": 19.0,
+        "cidade": "Porto Velho"
+      },
+      {
+        "lat": -29.383113861083984,
+        "lon": -50.862091064453125,
+        "clientes_potenciais": 18,
+        "clientes_unicos": 18,
+        "score": 18.0,
+        "cidade": "Gramado"
+      },
+      {
+        "lat": -29.659364700317383,
+        "lon": -51.435142517089844,
+        "clientes_potenciais": 18,
+        "clientes_unicos": 18,
+        "score": 18.0,
+        "cidade": "Montenegro"
+      },
+      {
+        "lat": -18.726343154907227,
+        "lon": -39.83113479614258,
+        "clientes_potenciais": 18,
+        "clientes_unicos": 18,
+        "score": 18.0,
+        "cidade": "São Mateus"
+      },
+      {
+        "lat": -19.85039520263672,
+        "lon": -43.9605827331543,
+        "clientes_potenciais": 1675,
+        "clientes_unicos": 17,
+        "score": 17.0,
+        "cidade": "Belo Horizonte"
+      },
+      {
+        "lat": -23.532522201538086,
+        "lon": -49.24262619018555,
+        "clientes_potenciais": 17,
+        "clientes_unicos": 17,
+        "score": 17.0,
+        "cidade": "Taquarituba"
+      },
+      {
+        "lat": -21.471162796020508,
+        "lon": -47.00550842285156,
+        "clientes_potenciais": 17,
+        "clientes_unicos": 17,
+        "score": 17.0,
+        "cidade": "Mococa"
+      },
+      {
+        "lat": -12.70335578918457,
+        "lon": -38.32598114013672,
+        "clientes_potenciais": 24,
+        "clientes_unicos": 17,
+        "score": 17.0,
+        "cidade": "Camaçari"
+      },
+      {
+        "lat": -26.232574462890625,
+        "lon": -49.39582824707031,
+        "clientes_potenciais": 17,
+        "clientes_unicos": 17,
+        "score": 17.0,
+        "cidade": "São Bento do Sul"
+      },
+      {
+        "lat": -7.941911220550537,
+        "lon": -34.836429595947266,
+        "clientes_potenciais": 170,
+        "clientes_unicos": 17,
+        "score": 17.0,
+        "cidade": "Paulista"
+      },
+      {
+        "lat": -22.726116180419922,
+        "lon": -46.847660064697266,
+        "clientes_potenciais": 95,
+        "clientes_unicos": 16,
+        "score": 16.0,
+        "cidade": "Amparo"
+      },
+      {
+        "lat": -22.990304946899414,
+        "lon": -47.51036834716797,
+        "clientes_potenciais": 16,
+        "clientes_unicos": 16,
+        "score": 16.0,
+        "cidade": "Capivari"
+      },
+      {
+        "lat": -19.824575424194336,
+        "lon": -40.27367401123047,
+        "clientes_potenciais": 16,
+        "clientes_unicos": 16,
+        "score": 16.0,
+        "cidade": "Aracruz"
+      },
+      {
+        "lat": -20.273313522338867,
+        "lon": -50.54496383666992,
+        "clientes_potenciais": 16,
+        "clientes_unicos": 16,
+        "score": 16.0,
+        "cidade": "Jales"
+      },
+      {
+        "lat": -20.817068099975586,
+        "lon": -49.502811431884766,
+        "clientes_potenciais": 306,
+        "clientes_unicos": 16,
+        "score": 16.0,
+        "cidade": "Mirassol"
+      },
+      {
+        "lat": -20.939363479614258,
+        "lon": -48.48472595214844,
+        "clientes_potenciais": 16,
+        "clientes_unicos": 16,
+        "score": 16.0,
+        "cidade": "Bebedouro"
+      },
+      {
+        "lat": -26.25581169128418,
+        "lon": -49.51821517944336,
+        "clientes_potenciais": 16,
+        "clientes_unicos": 16,
+        "score": 16.0,
+        "cidade": "Rio Negrinho"
+      },
+      {
+        "lat": -20.802515029907227,
+        "lon": -49.3314323425293,
+        "clientes_potenciais": 415,
+        "clientes_unicos": 15,
+        "score": 15.0,
+        "cidade": "São José do Rio Preto"
+      },
+      {
+        "lat": -21.08137321472168,
+        "lon": -49.239959716796875,
+        "clientes_potenciais": 15,
+        "clientes_unicos": 15,
+        "score": 15.0,
+        "cidade": "Ibirá"
+      },
+      {
+        "lat": -21.20273208618164,
+        "lon": -49.29386901855469,
+        "clientes_potenciais": 15,
+        "clientes_unicos": 15,
+        "score": 15.0,
+        "cidade": "Urupês"
+      },
+      {
+        "lat": -7.839252471923828,
+        "lon": -34.91413497924805,
+        "clientes_potenciais": 37,
+        "clientes_unicos": 15,
+        "score": 15.0,
+        "cidade": "Igarassu"
+      },
+      {
+        "lat": -21.21209716796875,
+        "lon": -43.77167892456055,
+        "clientes_potenciais": 15,
+        "clientes_unicos": 15,
+        "score": 15.0,
+        "cidade": "Barbacena"
+      },
+      {
+        "lat": -17.22721290588379,
+        "lon": -46.87128448486328,
+        "clientes_potenciais": 14,
+        "clientes_unicos": 14,
+        "score": 14.0,
+        "cidade": "Paracatu"
+      },
+      {
+        "lat": -21.05786895751953,
+        "lon": -48.7998161315918,
+        "clientes_potenciais": 14,
+        "clientes_unicos": 14,
+        "score": 14.0,
+        "cidade": "Paraíso"
+      },
+      {
+        "lat": -18.176584243774414,
+        "lon": -47.950782775878906,
+        "clientes_potenciais": 14,
+        "clientes_unicos": 14,
+        "score": 14.0,
+        "cidade": "Catalão"
+      },
+      {
+        "lat": -24.057424545288086,
+        "lon": -46.5540771484375,
+        "clientes_potenciais": 52,
+        "clientes_unicos": 13,
+        "score": 13.0,
+        "cidade": "Praia Grande"
+      },
+      {
+        "lat": -7.198112487792969,
+        "lon": -48.20970916748047,
+        "clientes_potenciais": 13,
+        "clientes_unicos": 13,
+        "score": 13.0,
+        "cidade": "Araguaína"
+      },
+      {
+        "lat": -22.002635955810547,
+        "lon": -47.42586135864258,
+        "clientes_potenciais": 13,
+        "clientes_unicos": 13,
+        "score": 13.0,
+        "cidade": "Pirassununga"
+      },
+      {
+        "lat": -22.44489288330078,
+        "lon": -46.80726623535156,
+        "clientes_potenciais": 81,
+        "clientes_unicos": 13,
+        "score": 13.0,
+        "cidade": "Itapira"
+      },
+      {
+        "lat": -21.095043182373047,
+        "lon": -48.66358947753906,
+        "clientes_potenciais": 13,
+        "clientes_unicos": 13,
+        "score": 13.0,
+        "cidade": "Pirangi"
+      },
+      {
+        "lat": -21.23979377746582,
+        "lon": -44.998958587646484,
+        "clientes_potenciais": 12,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Lavras"
+      },
+      {
+        "lat": -24.552326202392578,
+        "lon": -54.05879211425781,
+        "clientes_potenciais": 12,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Marechal Cândido Rondon"
+      },
+      {
+        "lat": -12.546246528625488,
+        "lon": -55.729644775390625,
+        "clientes_potenciais": 12,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Sorriso"
+      },
+      {
+        "lat": -26.1149845123291,
+        "lon": -49.80322265625,
+        "clientes_potenciais": 12,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Mafra"
+      },
+      {
+        "lat": -20.75115203857422,
+        "lon": -42.87733840942383,
+        "clientes_potenciais": 12,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Viçosa"
+      },
+      {
+        "lat": -22.879148483276367,
+        "lon": -42.37770462036133,
+        "clientes_potenciais": 12,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Araruama"
+      },
+      {
+        "lat": -27.00811195373535,
+        "lon": -51.15079116821289,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Videira"
+      },
+      {
+        "lat": -21.216726303100586,
+        "lon": -47.80683135986328,
+        "clientes_potenciais": 453,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Ribeirão Preto"
+      },
+      {
+        "lat": -22.248634338378906,
+        "lon": -45.70708084106445,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Santa Rita do Sapucaí"
+      },
+      {
+        "lat": -21.26736831665039,
+        "lon": -48.31831741333008,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Jaboticabal"
+      },
+      {
+        "lat": -24.331022262573242,
+        "lon": -50.62102127075195,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Telêmaco Borba"
+      },
+      {
+        "lat": -20.022907257080078,
+        "lon": -45.5400276184082,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Lagoa da Prata"
+      },
+      {
+        "lat": -20.144412994384766,
+        "lon": -44.20444869995117,
+        "clientes_potenciais": 12,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Brumadinho"
+      },
+      {
+        "lat": -8.028419494628906,
+        "lon": -50.03174591064453,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Redenção"
+      },
+      {
+        "lat": -28.50547218322754,
+        "lon": -50.938419342041016,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Vacaria"
+      },
+      {
+        "lat": -32.03720474243164,
+        "lon": -52.105072021484375,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Rio Grande"
+      },
+      {
+        "lat": -20.784894943237305,
+        "lon": -49.81517791748047,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Poloni"
+      },
+      {
+        "lat": -26.179349899291992,
+        "lon": -50.38862228393555,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Canoinhas"
+      },
+      {
+        "lat": -18.763877868652344,
+        "lon": -44.42906188964844,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Curvelo"
+      },
+      {
+        "lat": -20.065208435058594,
+        "lon": -44.29542541503906,
+        "clientes_potenciais": 28,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Igarapé"
+      },
+      {
+        "lat": -20.393054962158203,
+        "lon": -43.50351333618164,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Ouro Preto"
+      },
+      {
+        "lat": -25.290285110473633,
+        "lon": -54.09107971191406,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Medianeira"
+      },
+      {
+        "lat": -16.356834411621094,
+        "lon": -49.499332427978516,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Inhumas"
+      },
+      {
+        "lat": -24.006072998046875,
+        "lon": -48.34865951538086,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Capão Bonito"
+      },
+      {
+        "lat": -22.327301025390625,
+        "lon": -47.164100646972656,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Conchal"
+      },
+      {
+        "lat": -29.2286319732666,
+        "lon": -51.3463020324707,
+        "clientes_potenciais": 102,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Farroupilha"
+      },
+      {
+        "lat": -17.869335174560547,
+        "lon": -41.504608154296875,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Teófilo Otoni"
+      },
+      {
+        "lat": -21.361974716186523,
+        "lon": -48.2275390625,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Guariba"
+      },
+      {
+        "lat": -22.525287628173828,
+        "lon": -55.72102737426758,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Ponta Porã"
+      },
+      {
+        "lat": -23.333032608032227,
+        "lon": -51.182090759277344,
+        "clientes_potenciais": 248,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Londrina"
+      },
+      {
+        "lat": -26.779399871826172,
+        "lon": -51.017818450927734,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Caçador"
+      },
+      {
+        "lat": -8.28970718383789,
+        "lon": -35.021018981933594,
+        "clientes_potenciais": 20,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Cabo de Santo Agostinho"
+      },
+      {
+        "lat": -22.55533790588379,
+        "lon": -41.9698600769043,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Rio das Ostras"
+      },
+      {
+        "lat": -18.644758224487305,
+        "lon": -48.191585540771484,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Araguari"
+      },
+      {
+        "lat": -19.974088668823242,
+        "lon": -43.967796325683594,
+        "clientes_potenciais": 1564,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Belo Horizonte"
+      },
+      {
+        "lat": -21.133710861206055,
+        "lon": -44.252872467041016,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "São João del-Rei"
+      },
+      {
+        "lat": -26.484472274780273,
+        "lon": -51.991878509521484,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Palmas"
+      },
+      {
+        "lat": -22.60064697265625,
+        "lon": -48.79246139526367,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Lençóis Paulista"
+      },
+      {
+        "lat": -23.812110900878906,
+        "lon": -46.08646774291992,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Bertioga"
+      },
+      {
+        "lat": -21.371042251586914,
+        "lon": -45.51680374145508,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Três Pontas"
+      },
+      {
+        "lat": -22.42378044128418,
+        "lon": -45.462730407714844,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Itajubá"
+      },
+      {
+        "lat": -22.97606658935547,
+        "lon": -49.88060760498047,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Ourinhos"
+      },
+      {
+        "lat": -17.56032371520996,
+        "lon": -52.55218505859375,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Mineiros"
+      },
+      {
+        "lat": -24.791698455810547,
+        "lon": -50.0054931640625,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Castro"
+      },
+      {
+        "lat": -26.199541091918945,
+        "lon": -48.92329788208008,
+        "clientes_potenciais": 332,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Joinville"
+      },
+      {
+        "lat": -19.7708740234375,
+        "lon": -44.31357955932617,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Esmeraldas"
+      },
+      {
+        "lat": -20.26839828491211,
+        "lon": -43.808250427246094,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Itabirito"
+      },
+      {
+        "lat": -20.522523880004883,
+        "lon": -43.69730758666992,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Ouro Branco"
+      },
+      {
+        "lat": -15.672256469726562,
+        "lon": -48.199058532714844,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Brazlândia"
+      },
+      {
+        "lat": -20.796171188354492,
+        "lon": -51.69643783569336,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Três Lagoas"
+      },
+      {
+        "lat": -20.844871520996094,
+        "lon": -49.63347244262695,
+        "clientes_potenciais": 38,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Neves Paulista"
+      },
+      {
+        "lat": -21.670196533203125,
+        "lon": -49.74875259399414,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Lins"
+      },
+      {
+        "lat": -11.30846118927002,
+        "lon": -41.85221481323242,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Irecê"
+      },
+      {
+        "lat": -3.212245464324951,
+        "lon": -52.21599197387695,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Altamira"
+      },
+      {
+        "lat": -21.391576766967773,
+        "lon": -42.69367599487305,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Cataguases"
+      },
+      {
+        "lat": -21.5317440032959,
+        "lon": -42.64293670654297,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Leopoldina"
+      },
+      {
+        "lat": -17.74477767944336,
+        "lon": -48.62893295288086,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Caldas Novas"
+      },
+      {
+        "lat": -19.74308967590332,
+        "lon": -45.2587890625,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Bom Despacho"
+      },
+      {
+        "lat": -22.825544357299805,
+        "lon": -47.097801208496094,
+        "clientes_potenciais": 555,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Campinas"
+      },
+      {
+        "lat": -23.030317306518555,
+        "lon": -48.00116729736328,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Conchas"
+      },
+      {
+        "lat": -23.384260177612305,
+        "lon": -48.72625732421875,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Paranapanema"
+      },
+      {
+        "lat": -28.648906707763672,
+        "lon": -53.61943435668945,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Cruz Alta"
+      },
+      {
+        "lat": -22.894540786743164,
+        "lon": -49.62282180786133,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Santa Cruz do Rio Pardo"
+      },
+      {
+        "lat": -26.267295837402344,
+        "lon": -48.836334228515625,
+        "clientes_potenciais": 621,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Joinville"
+      },
+      {
+        "lat": -7.8492231369018555,
+        "lon": -35.259178161621094,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Carpina"
+      },
+      {
+        "lat": -17.348827362060547,
+        "lon": -44.93939971923828,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Pirapora"
+      },
+      {
+        "lat": -28.3010196685791,
+        "lon": -54.26776123046875,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Santo Ângelo"
+      },
+      {
+        "lat": -7.990602016448975,
+        "lon": -38.291954040527344,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Serra Talhada"
+      },
+      {
+        "lat": -15.827658653259277,
+        "lon": -48.05088424682617,
+        "clientes_potenciais": 667,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Vicente Pires"
+      },
+      {
+        "lat": -16.658058166503906,
+        "lon": -49.499427795410156,
+        "clientes_potenciais": 17,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Trindade"
+      },
+      {
+        "lat": -16.77115249633789,
+        "lon": -49.24247360229492,
+        "clientes_potenciais": 416,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Aparecida de Goiânia"
+      },
+      {
+        "lat": -22.49477767944336,
+        "lon": -48.55126190185547,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Barra Bonita"
+      },
+      {
+        "lat": -22.891530990600586,
+        "lon": -45.33360290527344,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Roseira"
+      },
+      {
+        "lat": -31.319072723388672,
+        "lon": -54.107826232910156,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Bagé"
+      },
+      {
+        "lat": -17.534025192260742,
+        "lon": -39.74830627441406,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Teixeira de Freitas"
+      },
+      {
+        "lat": -20.081005096435547,
+        "lon": -49.91436767578125,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Cardoso"
+      },
+      {
+        "lat": -21.275714874267578,
+        "lon": -50.33065414428711,
+        "clientes_potenciais": 19,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Birigui"
+      },
+      {
+        "lat": -12.137030601501465,
+        "lon": -38.428802490234375,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Alagoinhas"
+      },
+      {
+        "lat": -14.798555374145508,
+        "lon": -39.275272369384766,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Itabuna"
+      },
+      {
+        "lat": -27.06610679626465,
+        "lon": -48.61796951293945,
+        "clientes_potenciais": 120,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Camboriú"
+      },
+      {
+        "lat": -8.27414321899414,
+        "lon": -35.96502685546875,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Caruaru"
+      },
+      {
+        "lat": -19.96041488647461,
+        "lon": -43.82919692993164,
+        "clientes_potenciais": 550,
+        "clientes_unicos": 4,
+        "score": 4.0,
+        "cidade": "Nova Lima"
+      },
+      {
+        "lat": -25.375219345092773,
+        "lon": -49.29262161254883,
+        "clientes_potenciais": 726,
+        "clientes_unicos": 4,
+        "score": 4.0,
+        "cidade": "Curitiba"
+      },
+      {
+        "lat": -23.651512145996094,
+        "lon": -46.591121673583984,
+        "clientes_potenciais": 1731,
+        "clientes_unicos": 1,
+        "score": 1.0,
+        "cidade": "São Bernardo do Campo"
+      }
+    ],
+    "total_beneficiados": 14754,
+    "clientes_unicos_totais": 2491
+  },
+  "20": {
+    "sugestoes": [
+      {
+        "lat": -26.079574584960938,
+        "lon": -53.04838943481445,
+        "clientes_potenciais": 85,
+        "clientes_unicos": 85,
+        "score": 85.0,
+        "cidade": "Francisco Beltrão"
+      },
+      {
+        "lat": -20.724050521850586,
+        "lon": -46.608245849609375,
+        "clientes_potenciais": 69,
+        "clientes_unicos": 69,
+        "score": 69.0,
+        "cidade": "Passos"
+      },
+      {
+        "lat": -20.256324768066406,
+        "lon": -42.03179931640625,
+        "clientes_potenciais": 56,
+        "clientes_unicos": 56,
+        "score": 56.0,
+        "cidade": "Manhuaçu"
+      },
+      {
+        "lat": -21.777708053588867,
+        "lon": -48.16691589355469,
+        "clientes_potenciais": 56,
+        "clientes_unicos": 56,
+        "score": 56.0,
+        "cidade": "Araraquara"
+      },
+      {
+        "lat": -23.49648094177246,
+        "lon": -51.451717376708984,
+        "clientes_potenciais": 55,
+        "clientes_unicos": 55,
+        "score": 55.0,
+        "cidade": "Arapongas"
+      },
+      {
+        "lat": -25.38927459716797,
+        "lon": -51.4697265625,
+        "clientes_potenciais": 49,
+        "clientes_unicos": 49,
+        "score": 49.0,
+        "cidade": "Guarapuava"
+      },
+      {
+        "lat": -21.425310134887695,
+        "lon": -45.95099639892578,
+        "clientes_potenciais": 49,
+        "clientes_unicos": 49,
+        "score": 49.0,
+        "cidade": "Alfenas"
+      },
+      {
+        "lat": -20.17842674255371,
+        "lon": -40.23341369628906,
+        "clientes_potenciais": 218,
+        "clientes_unicos": 45,
+        "score": 45.0,
+        "cidade": "Serra"
+      },
+      {
+        "lat": -20.412893295288086,
+        "lon": -49.97768783569336,
+        "clientes_potenciais": 39,
+        "clientes_unicos": 39,
+        "score": 39.0,
+        "cidade": "Votuporanga"
+      },
+      {
+        "lat": -17.885555267333984,
+        "lon": -51.72663497924805,
+        "clientes_potenciais": 36,
+        "clientes_unicos": 36,
+        "score": 36.0,
+        "cidade": "Jataí"
+      },
+      {
+        "lat": -19.773820877075195,
+        "lon": -43.95358657836914,
+        "clientes_potenciais": 1434,
+        "clientes_unicos": 36,
+        "score": 36.0,
+        "cidade": "Vespasiano"
+      },
+      {
+        "lat": -15.829124450683594,
+        "lon": -47.795997619628906,
+        "clientes_potenciais": 441,
+        "clientes_unicos": 35,
+        "score": 35.0,
+        "cidade": "Paranoá"
+      },
+      {
+        "lat": -22.087535858154297,
+        "lon": -46.59077453613281,
+        "clientes_potenciais": 32,
+        "clientes_unicos": 32,
+        "score": 32.0,
+        "cidade": "Andradas"
+      },
+      {
+        "lat": -23.00175666809082,
+        "lon": -43.42622756958008,
+        "clientes_potenciais": 197,
+        "clientes_unicos": 32,
+        "score": 32.0,
+        "cidade": "Rio de Janeiro"
+      },
+      {
+        "lat": -24.03776741027832,
+        "lon": -52.37459945678711,
+        "clientes_potenciais": 31,
+        "clientes_unicos": 31,
+        "score": 31.0,
+        "cidade": "Campo Mourão"
+      },
+      {
+        "lat": -21.13409423828125,
+        "lon": -42.37295913696289,
+        "clientes_potenciais": 29,
+        "clientes_unicos": 29,
+        "score": 29.0,
+        "cidade": "Muriaé"
+      },
+      {
+        "lat": -22.86243438720703,
+        "lon": -46.32676696777344,
+        "clientes_potenciais": 28,
+        "clientes_unicos": 28,
+        "score": 28.0,
+        "cidade": "Extrema"
+      },
+      {
+        "lat": -19.7777042388916,
+        "lon": -42.13669204711914,
+        "clientes_potenciais": 27,
+        "clientes_unicos": 27,
+        "score": 27.0,
+        "cidade": "Caratinga"
+      },
+      {
+        "lat": -20.73605728149414,
+        "lon": -48.90916061401367,
+        "clientes_potenciais": 27,
+        "clientes_unicos": 27,
+        "score": 27.0,
+        "cidade": "Olímpia"
+      },
+      {
+        "lat": -20.08112335205078,
+        "lon": -44.580848693847656,
+        "clientes_potenciais": 26,
+        "clientes_unicos": 26,
+        "score": 26.0,
+        "cidade": "Itaúna"
+      },
+      {
+        "lat": -19.45575714111328,
+        "lon": -44.24060821533203,
+        "clientes_potenciais": 25,
+        "clientes_unicos": 25,
+        "score": 25.0,
+        "cidade": "Sete Lagoas"
+      },
+      {
+        "lat": -20.405223846435547,
+        "lon": -42.895355224609375,
+        "clientes_potenciais": 24,
+        "clientes_unicos": 24,
+        "score": 24.0,
+        "cidade": "Ponte Nova"
+      },
+      {
+        "lat": -19.380126953125,
+        "lon": -40.06150436401367,
+        "clientes_potenciais": 24,
+        "clientes_unicos": 24,
+        "score": 24.0,
+        "cidade": "Linhares"
+      },
+      {
+        "lat": -27.441537857055664,
+        "lon": -48.41440963745117,
+        "clientes_potenciais": 49,
+        "clientes_unicos": 24,
+        "score": 24.0,
+        "cidade": "Florianópolis"
+      },
+      {
+        "lat": -21.12640380859375,
+        "lon": -42.9323616027832,
+        "clientes_potenciais": 23,
+        "clientes_unicos": 23,
+        "score": 23.0,
+        "cidade": "Ubá"
+      },
+      {
+        "lat": -21.97374725341797,
+        "lon": -46.790279388427734,
+        "clientes_potenciais": 22,
+        "clientes_unicos": 21,
+        "score": 21.0,
+        "cidade": "São João da Boa Vista"
+      },
+      {
+        "lat": -23.81815528869629,
+        "lon": -46.75177764892578,
+        "clientes_potenciais": 387,
+        "clientes_unicos": 21,
+        "score": 21.0,
+        "cidade": "São Paulo"
+      },
+      {
+        "lat": -18.414670944213867,
+        "lon": -49.219085693359375,
+        "clientes_potenciais": 21,
+        "clientes_unicos": 21,
+        "score": 21.0,
+        "cidade": "Itumbiara"
+      },
+      {
+        "lat": -18.945676803588867,
+        "lon": -46.99457931518555,
+        "clientes_potenciais": 21,
+        "clientes_unicos": 21,
+        "score": 21.0,
+        "cidade": "Patrocínio"
+      },
+      {
+        "lat": -18.977493286132812,
+        "lon": -49.45655059814453,
+        "clientes_potenciais": 20,
+        "clientes_unicos": 20,
+        "score": 20.0,
+        "cidade": "Ituiutaba"
+      },
+      {
+        "lat": -8.762446403503418,
+        "lon": -63.877464294433594,
+        "clientes_potenciais": 20,
+        "clientes_unicos": 20,
+        "score": 20.0,
+        "cidade": "Porto Velho"
+      },
+      {
+        "lat": -29.66136932373047,
+        "lon": -51.428062438964844,
+        "clientes_potenciais": 20,
+        "clientes_unicos": 20,
+        "score": 20.0,
+        "cidade": "Montenegro"
+      },
+      {
+        "lat": -18.726343154907227,
+        "lon": -39.83113479614258,
+        "clientes_potenciais": 20,
+        "clientes_unicos": 20,
+        "score": 20.0,
+        "cidade": "São Mateus"
+      },
+      {
+        "lat": -23.986370086669922,
+        "lon": -48.87930679321289,
+        "clientes_potenciais": 19,
+        "clientes_unicos": 19,
+        "score": 19.0,
+        "cidade": "Itapeva"
+      },
+      {
+        "lat": -19.824575424194336,
+        "lon": -40.27367401123047,
+        "clientes_potenciais": 19,
+        "clientes_unicos": 19,
+        "score": 19.0,
+        "cidade": "Aracruz"
+      },
+      {
+        "lat": -21.08137321472168,
+        "lon": -49.239959716796875,
+        "clientes_potenciais": 20,
+        "clientes_unicos": 18,
+        "score": 18.0,
+        "cidade": "Ibirá"
+      },
+      {
+        "lat": -23.52817153930664,
+        "lon": -49.2514533996582,
+        "clientes_potenciais": 18,
+        "clientes_unicos": 18,
+        "score": 18.0,
+        "cidade": "Taquarituba"
+      },
+      {
+        "lat": -23.171052932739258,
+        "lon": -46.95481491088867,
+        "clientes_potenciais": 604,
+        "clientes_unicos": 18,
+        "score": 18.0,
+        "cidade": "Jundiaí"
+      },
+      {
+        "lat": -23.35251235961914,
+        "lon": -47.8569450378418,
+        "clientes_potenciais": 46,
+        "clientes_unicos": 18,
+        "score": 18.0,
+        "cidade": "Tatuí"
+      },
+      {
+        "lat": -21.200342178344727,
+        "lon": -49.283714294433594,
+        "clientes_potenciais": 21,
+        "clientes_unicos": 17,
+        "score": 17.0,
+        "cidade": "Urupês"
+      },
+      {
+        "lat": -22.629846572875977,
+        "lon": -47.164920806884766,
+        "clientes_potenciais": 214,
+        "clientes_unicos": 17,
+        "score": 17.0,
+        "cidade": "Cosmópolis"
+      },
+      {
+        "lat": -26.24634552001953,
+        "lon": -49.468353271484375,
+        "clientes_potenciais": 17,
+        "clientes_unicos": 17,
+        "score": 17.0,
+        "cidade": "São Bento do Sul"
+      },
+      {
+        "lat": -20.26317024230957,
+        "lon": -50.56465148925781,
+        "clientes_potenciais": 16,
+        "clientes_unicos": 16,
+        "score": 16.0,
+        "cidade": "Jales"
+      },
+      {
+        "lat": -20.939363479614258,
+        "lon": -48.48472595214844,
+        "clientes_potenciais": 16,
+        "clientes_unicos": 16,
+        "score": 16.0,
+        "cidade": "Bebedouro"
+      },
+      {
+        "lat": -29.379417419433594,
+        "lon": -50.86130905151367,
+        "clientes_potenciais": 19,
+        "clientes_unicos": 16,
+        "score": 16.0,
+        "cidade": "Gramado"
+      },
+      {
+        "lat": -22.327301025390625,
+        "lon": -47.164100646972656,
+        "clientes_potenciais": 21,
+        "clientes_unicos": 15,
+        "score": 15.0,
+        "cidade": "Conchal"
+      },
+      {
+        "lat": -22.99376678466797,
+        "lon": -47.50056838989258,
+        "clientes_potenciais": 23,
+        "clientes_unicos": 15,
+        "score": 15.0,
+        "cidade": "Capivari"
+      },
+      {
+        "lat": -24.55567741394043,
+        "lon": -54.046363830566406,
+        "clientes_potenciais": 15,
+        "clientes_unicos": 15,
+        "score": 15.0,
+        "cidade": "Marechal Cândido Rondon"
+      },
+      {
+        "lat": -21.22748565673828,
+        "lon": -43.771156311035156,
+        "clientes_potenciais": 15,
+        "clientes_unicos": 15,
+        "score": 15.0,
+        "cidade": "Barbacena"
+      },
+      {
+        "lat": -20.784894943237305,
+        "lon": -49.81517791748047,
+        "clientes_potenciais": 14,
+        "clientes_unicos": 14,
+        "score": 14.0,
+        "cidade": "Poloni"
+      },
+      {
+        "lat": -17.22721290588379,
+        "lon": -46.87128448486328,
+        "clientes_potenciais": 14,
+        "clientes_unicos": 14,
+        "score": 14.0,
+        "cidade": "Paracatu"
+      },
+      {
+        "lat": -18.176584243774414,
+        "lon": -47.950782775878906,
+        "clientes_potenciais": 14,
+        "clientes_unicos": 14,
+        "score": 14.0,
+        "cidade": "Catalão"
+      },
+      {
+        "lat": -19.737287521362305,
+        "lon": -44.16529083251953,
+        "clientes_potenciais": 174,
+        "clientes_unicos": 14,
+        "score": 14.0,
+        "cidade": "Esmeraldas"
+      },
+      {
+        "lat": -20.74287223815918,
+        "lon": -42.87558364868164,
+        "clientes_potenciais": 13,
+        "clientes_unicos": 13,
+        "score": 13.0,
+        "cidade": "Viçosa"
+      },
+      {
+        "lat": -7.198112487792969,
+        "lon": -48.20970916748047,
+        "clientes_potenciais": 13,
+        "clientes_unicos": 13,
+        "score": 13.0,
+        "cidade": "Araguaína"
+      },
+      {
+        "lat": -20.850955963134766,
+        "lon": -49.49142837524414,
+        "clientes_potenciais": 415,
+        "clientes_unicos": 13,
+        "score": 13.0,
+        "cidade": "Mirassol"
+      },
+      {
+        "lat": -20.844871520996094,
+        "lon": -49.63347244262695,
+        "clientes_potenciais": 62,
+        "clientes_unicos": 13,
+        "score": 13.0,
+        "cidade": "Neves Paulista"
+      },
+      {
+        "lat": -21.391576766967773,
+        "lon": -42.69367599487305,
+        "clientes_potenciais": 12,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Cataguases"
+      },
+      {
+        "lat": -21.5317440032959,
+        "lon": -42.64293670654297,
+        "clientes_potenciais": 12,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Leopoldina"
+      },
+      {
+        "lat": -21.044992446899414,
+        "lon": -48.79902648925781,
+        "clientes_potenciais": 48,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Paraíso"
+      },
+      {
+        "lat": -32.03720474243164,
+        "lon": -52.105072021484375,
+        "clientes_potenciais": 12,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Rio Grande"
+      },
+      {
+        "lat": -21.23979377746582,
+        "lon": -44.998958587646484,
+        "clientes_potenciais": 12,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Lavras"
+      },
+      {
+        "lat": -12.546246528625488,
+        "lon": -55.729644775390625,
+        "clientes_potenciais": 12,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Sorriso"
+      },
+      {
+        "lat": -22.869915008544922,
+        "lon": -42.33047866821289,
+        "clientes_potenciais": 13,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Araruama"
+      },
+      {
+        "lat": -26.1149845123291,
+        "lon": -49.80322265625,
+        "clientes_potenciais": 12,
+        "clientes_unicos": 12,
+        "score": 12.0,
+        "cidade": "Mafra"
+      },
+      {
+        "lat": -27.022340774536133,
+        "lon": -51.16533660888672,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Videira"
+      },
+      {
+        "lat": -21.095043182373047,
+        "lon": -48.66358947753906,
+        "clientes_potenciais": 14,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Pirangi"
+      },
+      {
+        "lat": -21.26736831665039,
+        "lon": -48.31831741333008,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Jaboticabal"
+      },
+      {
+        "lat": -21.361974716186523,
+        "lon": -48.2275390625,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Guariba"
+      },
+      {
+        "lat": -22.894540786743164,
+        "lon": -49.62282180786133,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Santa Cruz do Rio Pardo"
+      },
+      {
+        "lat": -24.331022262573242,
+        "lon": -50.62102127075195,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 11,
+        "score": 11.0,
+        "cidade": "Telêmaco Borba"
+      },
+      {
+        "lat": -8.028419494628906,
+        "lon": -50.03174591064453,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Redenção"
+      },
+      {
+        "lat": -12.645730018615723,
+        "lon": -38.315364837646484,
+        "clientes_potenciais": 20,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Camaçari"
+      },
+      {
+        "lat": -22.97606658935547,
+        "lon": -49.88060760498047,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Ourinhos"
+      },
+      {
+        "lat": -7.916844844818115,
+        "lon": -34.86333465576172,
+        "clientes_potenciais": 241,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Paulista"
+      },
+      {
+        "lat": -22.42378044128418,
+        "lon": -45.462730407714844,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Itajubá"
+      },
+      {
+        "lat": -28.50547218322754,
+        "lon": -50.938419342041016,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Vacaria"
+      },
+      {
+        "lat": -19.7708740234375,
+        "lon": -44.31357955932617,
+        "clientes_potenciais": 34,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Esmeraldas"
+      },
+      {
+        "lat": -20.022907257080078,
+        "lon": -45.5400276184082,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Lagoa da Prata"
+      },
+      {
+        "lat": -25.439470291137695,
+        "lon": -49.51863098144531,
+        "clientes_potenciais": 145,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Campo Largo"
+      },
+      {
+        "lat": -26.179349899291992,
+        "lon": -50.38862228393555,
+        "clientes_potenciais": 10,
+        "clientes_unicos": 10,
+        "score": 10.0,
+        "cidade": "Canoinhas"
+      },
+      {
+        "lat": -20.387161254882812,
+        "lon": -43.484004974365234,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Ouro Preto"
+      },
+      {
+        "lat": -25.280075073242188,
+        "lon": -54.06686782836914,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Medianeira"
+      },
+      {
+        "lat": -26.779399871826172,
+        "lon": -51.017818450927734,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Caçador"
+      },
+      {
+        "lat": -22.58298110961914,
+        "lon": -48.77730178833008,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Lençóis Paulista"
+      },
+      {
+        "lat": -24.006072998046875,
+        "lon": -48.34865951538086,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Capão Bonito"
+      },
+      {
+        "lat": -7.865706920623779,
+        "lon": -35.230079650878906,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Carpina"
+      },
+      {
+        "lat": -22.23781394958496,
+        "lon": -45.711891174316406,
+        "clientes_potenciais": 13,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Santa Rita do Sapucaí"
+      },
+      {
+        "lat": -16.356834411621094,
+        "lon": -49.499332427978516,
+        "clientes_potenciais": 11,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Inhumas"
+      },
+      {
+        "lat": -18.644758224487305,
+        "lon": -48.191585540771484,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Araguari"
+      },
+      {
+        "lat": -22.525287628173828,
+        "lon": -55.72102737426758,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Ponta Porã"
+      },
+      {
+        "lat": -18.763877868652344,
+        "lon": -44.42906188964844,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Curvelo"
+      },
+      {
+        "lat": -21.371042251586914,
+        "lon": -45.51680374145508,
+        "clientes_potenciais": 12,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Três Pontas"
+      },
+      {
+        "lat": -17.869335174560547,
+        "lon": -41.504608154296875,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 9,
+        "score": 9.0,
+        "cidade": "Teófilo Otoni"
+      },
+      {
+        "lat": -26.484472274780273,
+        "lon": -51.991878509521484,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Palmas"
+      },
+      {
+        "lat": -17.56032371520996,
+        "lon": -52.55218505859375,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Mineiros"
+      },
+      {
+        "lat": -23.384260177612305,
+        "lon": -48.72625732421875,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Paranapanema"
+      },
+      {
+        "lat": -24.791698455810547,
+        "lon": -50.0054931640625,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Castro"
+      },
+      {
+        "lat": -23.812110900878906,
+        "lon": -46.08646774291992,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Bertioga"
+      },
+      {
+        "lat": -16.02214241027832,
+        "lon": -48.0327033996582,
+        "clientes_potenciais": 237,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "Santa Maria"
+      },
+      {
+        "lat": -20.07535743713379,
+        "lon": -44.22991943359375,
+        "clientes_potenciais": 185,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "São Joaquim de Bicas"
+      },
+      {
+        "lat": -21.133710861206055,
+        "lon": -44.252872467041016,
+        "clientes_potenciais": 8,
+        "clientes_unicos": 8,
+        "score": 8.0,
+        "cidade": "São João del-Rei"
+      },
+      {
+        "lat": -20.26839828491211,
+        "lon": -43.808250427246094,
+        "clientes_potenciais": 14,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Itabirito"
+      },
+      {
+        "lat": -20.796171188354492,
+        "lon": -51.69643783569336,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Três Lagoas"
+      },
+      {
+        "lat": -21.670196533203125,
+        "lon": -49.74875259399414,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Lins"
+      },
+      {
+        "lat": -22.49477767944336,
+        "lon": -48.55126190185547,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Barra Bonita"
+      },
+      {
+        "lat": -8.321975708007812,
+        "lon": -35.04143524169922,
+        "clientes_potenciais": 23,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Cabo de Santo Agostinho"
+      },
+      {
+        "lat": -22.956151962280273,
+        "lon": -46.978553771972656,
+        "clientes_potenciais": 659,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Valinhos"
+      },
+      {
+        "lat": -24.06114959716797,
+        "lon": -46.563167572021484,
+        "clientes_potenciais": 70,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Praia Grande"
+      },
+      {
+        "lat": -15.672256469726562,
+        "lon": -48.199058532714844,
+        "clientes_potenciais": 52,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Brazlândia"
+      },
+      {
+        "lat": -17.74477767944336,
+        "lon": -48.62893295288086,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Caldas Novas"
+      },
+      {
+        "lat": -11.319487571716309,
+        "lon": -41.84889602661133,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Irecê"
+      },
+      {
+        "lat": -3.212245464324951,
+        "lon": -52.21599197387695,
+        "clientes_potenciais": 7,
+        "clientes_unicos": 7,
+        "score": 7.0,
+        "cidade": "Altamira"
+      },
+      {
+        "lat": -21.21627426147461,
+        "lon": -47.806697845458984,
+        "clientes_potenciais": 472,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Ribeirão Preto"
+      },
+      {
+        "lat": -21.996702194213867,
+        "lon": -47.42675018310547,
+        "clientes_potenciais": 37,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Pirassununga"
+      },
+      {
+        "lat": -23.030317306518555,
+        "lon": -48.00116729736328,
+        "clientes_potenciais": 9,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Conchas"
+      },
+      {
+        "lat": -28.648906707763672,
+        "lon": -53.61943435668945,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Cruz Alta"
+      },
+      {
+        "lat": -19.74308967590332,
+        "lon": -45.2587890625,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 6,
+        "score": 6.0,
+        "cidade": "Bom Despacho"
+      },
+      {
+        "lat": -28.3010196685791,
+        "lon": -54.26776123046875,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Santo Ângelo"
+      },
+      {
+        "lat": -12.137030601501465,
+        "lon": -38.428802490234375,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Alagoinhas"
+      },
+      {
+        "lat": -12.674116134643555,
+        "lon": -38.108726501464844,
+        "clientes_potenciais": 6,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Camaçari"
+      },
+      {
+        "lat": -14.798555374145508,
+        "lon": -39.275272369384766,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Itabuna"
+      },
+      {
+        "lat": -20.081005096435547,
+        "lon": -49.91436767578125,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Cardoso"
+      },
+      {
+        "lat": -7.990602016448975,
+        "lon": -38.291954040527344,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Serra Talhada"
+      },
+      {
+        "lat": -8.27414321899414,
+        "lon": -35.96502685546875,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Caruaru"
+      },
+      {
+        "lat": -22.7382755279541,
+        "lon": -46.89398193359375,
+        "clientes_potenciais": 184,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Pedreira"
+      },
+      {
+        "lat": -31.319072723388672,
+        "lon": -54.107826232910156,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Bagé"
+      },
+      {
+        "lat": -17.348827362060547,
+        "lon": -44.93939971923828,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Pirapora"
+      },
+      {
+        "lat": -17.534025192260742,
+        "lon": -39.74830627441406,
+        "clientes_potenciais": 5,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Teixeira de Freitas"
+      },
+      {
+        "lat": -22.590898513793945,
+        "lon": -42.00576400756836,
+        "clientes_potenciais": 12,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Cabo Frio"
+      },
+      {
+        "lat": -27.08881950378418,
+        "lon": -48.60892105102539,
+        "clientes_potenciais": 150,
+        "clientes_unicos": 5,
+        "score": 5.0,
+        "cidade": "Itapema"
+      },
+      {
+        "lat": -20.000064849853516,
+        "lon": -50.35574722290039,
+        "clientes_potenciais": 4,
+        "clientes_unicos": 4,
+        "score": 4.0,
+        "cidade": "Ouroeste"
+      },
+      {
+        "lat": -23.331735610961914,
+        "lon": -51.182403564453125,
+        "clientes_potenciais": 261,
+        "clientes_unicos": 4,
+        "score": 4.0,
+        "cidade": "Londrina"
+      },
+      {
+        "lat": -22.478633880615234,
+        "lon": -44.50139617919922,
+        "clientes_potenciais": 4,
+        "clientes_unicos": 4,
+        "score": 4.0,
+        "cidade": "Resende"
+      },
+      {
+        "lat": -26.212087631225586,
+        "lon": -48.88945388793945,
+        "clientes_potenciais": 570,
+        "clientes_unicos": 4,
+        "score": 4.0,
+        "cidade": "Joinville"
+      },
+      {
+        "lat": -25.5875301361084,
+        "lon": -49.3175048828125,
+        "clientes_potenciais": 706,
+        "clientes_unicos": 4,
+        "score": 4.0,
+        "cidade": "Curitiba"
+      },
+      {
+        "lat": -15.818525314331055,
+        "lon": -48.044315338134766,
+        "clientes_potenciais": 837,
+        "clientes_unicos": 1,
+        "score": 1.0,
+        "cidade": "Vicente Pires"
+      }
+    ],
+    "total_beneficiados": 10950,
+    "clientes_unicos_totais": 2139
+  }
+}
