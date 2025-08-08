@@ -36,3 +36,83 @@
 2025-07-29 15:53:05,638 - INFO - 127.0.0.1 - - [29/Jul/2025 15:53:05] "GET /cobertura?raio=15 HTTP/1.1" 200 -
 2025-07-29 15:53:06,753 - INFO - Servindo sugestões para raio 15km do cache.
 2025-07-29 15:53:06,759 - INFO - 127.0.0.1 - - [29/Jul/2025 15:53:06] "GET /sugerir_oficinas?raio=15 HTTP/1.1" 200 -
+2025-07-30 09:25:38,263 - INFO - 127.0.0.1 - - [30/Jul/2025 09:25:38] "[33mGET /static/images/logo2.png HTTP/1.1[0m" 404 -
+2025-07-30 09:25:40,472 - INFO - 127.0.0.1 - - [30/Jul/2025 09:25:40] "GET / HTTP/1.1" 200 -
+2025-07-30 09:25:40,499 - INFO - 127.0.0.1 - - [30/Jul/2025 09:25:40] "GET /static/logo.png HTTP/1.1" 200 -
+2025-07-30 09:25:40,501 - INFO - 127.0.0.1 - - [30/Jul/2025 09:25:40] "GET /static/logo2.png HTTP/1.1" 200 -
+2025-07-30 09:25:41,431 - INFO - 127.0.0.1 - - [30/Jul/2025 09:25:41] "GET /cobertura?raio=15 HTTP/1.1" 200 -
+2025-07-30 10:29:23,710 - INFO - 127.0.0.1 - - [30/Jul/2025 10:29:23] "GET / HTTP/1.1" 200 -
+2025-07-30 10:29:23,745 - INFO - 127.0.0.1 - - [30/Jul/2025 10:29:23] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2025-07-30 10:29:23,746 - INFO - 127.0.0.1 - - [30/Jul/2025 10:29:23] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2025-07-30 10:29:24,571 - INFO - 127.0.0.1 - - [30/Jul/2025 10:29:24] "GET /cobertura?raio=15 HTTP/1.1" 200 -
+2025-08-08 09:49:31,940 - WARNING - Filtradas 51 coordenadas inválidas
+2025-08-08 09:49:31,963 - INFO - --- INICIANDO PRÉ-CACHE DE SUGESTÕES ---
+2025-08-08 09:49:31,964 - INFO - Sugestões para o raio 5km já existem no cache. Pulando.
+2025-08-08 09:49:31,965 - INFO - Sugestões para o raio 10km já existem no cache. Pulando.
+2025-08-08 09:49:31,965 - INFO - Sugestões para o raio 15km já existem no cache. Pulando.
+2025-08-08 09:49:31,966 - INFO - Sugestões para o raio 20km já existem no cache. Pulando.
+2025-08-08 09:49:31,966 - INFO - --- PRÉ-CACHE DE SUGESTÕES CONCLUÍDO ---
+2025-08-08 09:49:31,967 - INFO - 
+🚀 Aplicação pronta! Acesse http://localhost:5000
+2025-08-08 09:49:32,074 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.119:5000
+2025-08-08 09:49:32,079 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-08 09:51:44,305 - INFO - 127.0.0.1 - - [08/Aug/2025 09:51:44] "GET / HTTP/1.1" 200 -
+2025-08-08 09:51:44,328 - INFO - 127.0.0.1 - - [08/Aug/2025 09:51:44] "GET /static/logo.png HTTP/1.1" 200 -
+2025-08-08 09:51:44,541 - INFO - 127.0.0.1 - - [08/Aug/2025 09:51:44] "GET /static/logo2.png HTTP/1.1" 200 -
+2025-08-08 09:51:45,600 - INFO - 127.0.0.1 - - [08/Aug/2025 09:51:45] "GET /cobertura?raio=15 HTTP/1.1" 200 -
+2025-08-08 09:53:39,711 - WARNING - Filtradas 51 coordenadas inválidas
+2025-08-08 09:53:39,718 - INFO - --- INICIANDO PRÉ-CACHE DE SUGESTÕES ---
+2025-08-08 09:53:39,719 - INFO - Sugestões para o raio 5km já existem no cache. Pulando.
+2025-08-08 09:53:39,720 - INFO - Sugestões para o raio 10km já existem no cache. Pulando.
+2025-08-08 09:53:39,720 - INFO - Sugestões para o raio 15km já existem no cache. Pulando.
+2025-08-08 09:53:39,721 - INFO - Sugestões para o raio 20km já existem no cache. Pulando.
+2025-08-08 09:53:39,722 - INFO - --- PRÉ-CACHE DE SUGESTÕES CONCLUÍDO ---
+2025-08-08 09:53:39,724 - INFO - 
+🚀 Aplicação pronta! Acesse http://localhost:5000
+2025-08-08 09:53:39,839 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.119:5000
+2025-08-08 09:53:39,841 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-08 09:53:45,962 - INFO - 127.0.0.1 - - [08/Aug/2025 09:53:45] "GET / HTTP/1.1" 200 -
+2025-08-08 09:53:45,992 - INFO - 127.0.0.1 - - [08/Aug/2025 09:53:45] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2025-08-08 09:53:46,436 - INFO - 127.0.0.1 - - [08/Aug/2025 09:53:46] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2025-08-08 09:53:46,582 - INFO - 127.0.0.1 - - [08/Aug/2025 09:53:46] "GET /cobertura?raio=15 HTTP/1.1" 200 -
+2025-08-08 09:53:55,917 - INFO - 127.0.0.1 - - [08/Aug/2025 09:53:55] "GET /cobertura?raio=10 HTTP/1.1" 200 -
+2025-08-08 09:53:57,994 - INFO - Servindo sugestões para raio 10km do cache.
+2025-08-08 09:53:57,999 - INFO - 127.0.0.1 - - [08/Aug/2025 09:53:57] "GET /sugerir_oficinas?raio=10 HTTP/1.1" 200 -
+2025-08-08 09:54:47,100 - WARNING - Filtradas 51 coordenadas inválidas
+2025-08-08 09:54:47,108 - INFO - --- INICIANDO PRÉ-CACHE DE SUGESTÕES ---
+2025-08-08 09:54:47,108 - INFO - Cache para raio 5km não encontrado. Gerando agora...
+2025-08-08 09:54:47,108 - INFO - Iniciando cálculo de sugestões para raio de 5 km (isso pode levar tempo)...
+2025-08-08 09:58:31,702 - INFO - Cálculo para raio 5 km concluído. 281 sugestões geradas.
+2025-08-08 09:58:31,705 - INFO - Cache para raio 10km não encontrado. Gerando agora...
+2025-08-08 09:58:31,705 - INFO - Iniciando cálculo de sugestões para raio de 10 km (isso pode levar tempo)...
+2025-08-08 10:01:02,046 - INFO - Cálculo para raio 10 km concluído. 235 sugestões geradas.
+2025-08-08 10:01:02,049 - INFO - Cache para raio 15km não encontrado. Gerando agora...
+2025-08-08 10:01:02,049 - INFO - Iniciando cálculo de sugestões para raio de 15 km (isso pode levar tempo)...
+2025-08-08 10:02:32,337 - INFO - Cálculo para raio 15 km concluído. 194 sugestões geradas.
+2025-08-08 10:02:32,338 - INFO - Cache para raio 20km não encontrado. Gerando agora...
+2025-08-08 10:02:32,339 - INFO - Iniciando cálculo de sugestões para raio de 20 km (isso pode levar tempo)...
+2025-08-08 10:03:41,472 - INFO - Cálculo para raio 20 km concluído. 173 sugestões geradas.
+2025-08-08 10:03:41,487 - INFO - Cache de sugestões salvo em sugestoes_cache.json
+2025-08-08 10:03:41,488 - INFO - --- PRÉ-CACHE DE SUGESTÕES CONCLUÍDO ---
+2025-08-08 10:03:41,489 - INFO - 
+🚀 Aplicação pronta! Acesse http://localhost:5000
+2025-08-08 10:03:41,530 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.119:5000
+2025-08-08 10:03:41,532 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-08 10:03:45,074 - INFO - 127.0.0.1 - - [08/Aug/2025 10:03:45] "GET / HTTP/1.1" 200 -
+2025-08-08 10:03:45,118 - INFO - 127.0.0.1 - - [08/Aug/2025 10:03:45] "GET /static/logo.png HTTP/1.1" 200 -
+2025-08-08 10:03:45,120 - INFO - 127.0.0.1 - - [08/Aug/2025 10:03:45] "GET /static/logo2.png HTTP/1.1" 200 -
+2025-08-08 10:03:45,579 - INFO - 127.0.0.1 - - [08/Aug/2025 10:03:45] "GET /cobertura?raio=15 HTTP/1.1" 200 -
+2025-08-08 10:03:49,258 - INFO - Servindo sugestões para raio 15km do cache.
+2025-08-08 10:03:49,263 - INFO - 127.0.0.1 - - [08/Aug/2025 10:03:49] "GET /sugerir_oficinas?raio=15 HTTP/1.1" 200 -
+2025-08-08 10:03:51,607 - INFO - 127.0.0.1 - - [08/Aug/2025 10:03:51] "GET /cobertura?raio=10 HTTP/1.1" 200 -
+2025-08-08 10:03:52,677 - INFO - Servindo sugestões para raio 10km do cache.
+2025-08-08 10:03:52,682 - INFO - 127.0.0.1 - - [08/Aug/2025 10:03:52] "GET /sugerir_oficinas?raio=10 HTTP/1.1" 200 -
